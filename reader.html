@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="sepia">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reading — Weird Tales</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/reader.css">
+</head>
+<body>
+
+  <div class="progress-bar" id="progress-bar"></div>
+
+  <nav class="reader-nav">
+    <div class="reader-nav__left">
+      <a href="index.html" class="btn">Archive</a>
+      <button class="btn" id="toc-toggle">Contents</button>
+    </div>
+    <div class="reader-nav__issue-title" id="nav-title"></div>
+    <div class="reader-nav__right">
+      <button class="btn" id="settings-toggle">Settings</button>
+    </div>
+  </nav>
+
+  <!-- TOC Drawer -->
+  <aside class="toc-drawer" id="toc-drawer">
+    <div class="toc-drawer__header">
+      <span class="toc-drawer__title">Contents</span>
+      <button class="toc-drawer__close" id="toc-close">&times;</button>
+    </div>
+    <div class="toc-drawer__issue-info" id="toc-issue-info"></div>
+    <ul class="toc-drawer__list" id="toc-list"></ul>
+  </aside>
+
+  <!-- Main Content -->
+  <main class="reader-content" id="reader-content">
+    <div id="loading" style="text-align:center; padding:4rem 0; color:var(--text-muted)">Loading issue...</div>
+  </main>
+
+  <!-- Overlay -->
+  <div class="overlay" id="overlay"></div>
+
+  <!-- Settings Panel -->
+  <aside class="settings-panel" id="settings-panel">
+    <div class="settings-panel__header">
+      <span class="settings-panel__title">Settings</span>
+      <button class="settings-panel__close" id="settings-close">&times;</button>
+    </div>
+    <div class="settings-group">
+      <div class="settings-group__label">Theme</div>
+      <div class="settings-group__options">
+        <button class="btn" data-theme-choice="sepia">Sepia</button>
+        <button class="btn" data-theme-choice="light">Light</button>
+        <button class="btn" data-theme-choice="dark">Dark</button>
+      </div>
+    </div>
+    <div class="settings-group">
+      <div class="settings-group__label">Font Size</div>
+      <div class="font-size-control">
+        <span style="font-size:0.75rem">A</span>
+        <input type="range" id="font-size-slider" min="14" max="24" step="1">
+        <span style="font-size:1.1rem">A</span>
+        <span class="font-size-control__value" id="font-size-value"></span>
+      </div>
+    </div>
+    <div class="settings-group">
+      <div class="settings-group__label">Line Height</div>
+      <div class="font-size-control">
+        <span style="font-size:0.75rem">&#9776;</span>
+        <input type="range" id="line-height-slider" min="1.4" max="2.2" step="0.1">
+        <span style="font-size:0.85rem">&#9776;</span>
+        <span class="font-size-control__value" id="line-height-value"></span>
+      </div>
+    </div>
+  </aside>
+
+  <script src="js/preferences.js"></script>
+  <script src="js/reader.js"></script>
+  <script src="js/touch.js"></script>
+</body>
+</html>

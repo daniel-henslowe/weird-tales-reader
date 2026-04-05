@@ -1,0 +1,383 @@
+{
+  "title": "Weird Tales — The Unique Magazine",
+  "total_issues": 7,
+  "years": [
+    1923
+  ],
+  "issues": [
+    {
+      "slug": "wt_1923_03",
+      "filename": "wt_1923_03.txt",
+      "volume": "1",
+      "number": "1",
+      "date": "March 1923",
+      "year": 1923,
+      "editor": "",
+      "cover_price": "25¢",
+      "cover_art": null,
+      "stories": [
+        {
+          "title": "The Grave",
+          "author": "Orville R. Emerson"
+        },
+        {
+          "title": "Hark! The Rattle!",
+          "author": "Joel Townsley Rogers"
+        },
+        {
+          "title": "The Ghost Guard",
+          "author": "Bryan Irvine"
+        },
+        {
+          "title": "The Basket",
+          "author": "Herbert J. Mangham"
+        },
+        {
+          "title": "Ooze",
+          "author": "Anthony M. Rud"
+        },
+        {
+          "title": "The Skull. .",
+          "author": "Harold Ward"
+        },
+        {
+          "title": "The Chain",
+          "author": "Hamilton Craigie"
+        },
+        {
+          "title": ".Ca'pt",
+          "author": "George Warburton Lewis"
+        }
+      ],
+      "story_count": 8
+    },
+    {
+      "slug": "wt_1923_04",
+      "filename": "wt_1923_04.txt",
+      "volume": "1",
+      "number": "2",
+      "date": "April 1923",
+      "year": 1923,
+      "editor": "",
+      "cover_price": "",
+      "cover_art": null,
+      "stories": [
+        {
+          "title": "The Parlor Cemetery-C. E",
+          "author": "Howard"
+        },
+        {
+          "title": "The Thing of a Thousand Shapes",
+          "author": "Otis Adelbert Kline"
+        },
+        {
+          "title": "Six Feet of Willow- Carrol F",
+          "author": "Michener"
+        },
+        {
+          "title": "The Hall of the Dead- Francis D",
+          "author": "Grierson"
+        }
+      ],
+      "story_count": 4
+    },
+    {
+      "slug": "wt_1923_05",
+      "filename": "wt_1923_05.txt",
+      "volume": "1",
+      "number": "3",
+      "date": "May 1923",
+      "year": 1923,
+      "editor": "",
+      "cover_price": "25¢",
+      "cover_art": null,
+      "stories": [
+        {
+          "title": "....A. G",
+          "author": "BIRCH"
+        },
+        {
+          "title": "WILLIAM P",
+          "author": "BARRON"
+        },
+        {
+          "title": "TilVTi! TTHT?",
+          "author": "AN TT.YE"
+        },
+        {
+          "title": "_G. W",
+          "author": "CRANE"
+        },
+        {
+          "title": "m-crci TT A TTxTfPT?'n AKT'n 'TUT?",
+          "author": "TT A TTN'nT.P.S"
+        },
+        {
+          "title": "THE WHISPERING THING",
+          "author": "LAURIE McCLINTOCK AND CULPEPER CHUNN"
+        },
+        {
+          "title": "to $260.00 a month",
+          "author": "You need not pay me for my personal iustructioa"
+        },
+        {
+          "title": "prepaid the Draftsman’s Ivorine Pocket Rule shown here",
+          "author": "This will come entirely"
+        },
+        {
+          "title": "taining the drawing",
+          "author": "There are no conditions requiring you to buy anything."
+        },
+        {
+          "title": "You are under no obligations in sending in your sketch",
+          "author": "What I want to know"
+        },
+        {
+          "title": "I know that this is the time to get ready",
+          "author": "That is why I"
+        },
+        {
+          "title": "lrel^r.rer//Lse",
+          "author": "Aet."
+        },
+        {
+          "title": "By A. G",
+          "author": "BIRCH"
+        },
+        {
+          "title": "astronomer",
+          "author": "For we were on a hunting"
+        }
+      ],
+      "story_count": 14
+    },
+    {
+      "slug": "wt_1923_06",
+      "filename": "wt_1923_06.txt",
+      "volume": "",
+      "number": "",
+      "date": "June 1923",
+      "year": 1923,
+      "editor": "",
+      "cover_price": "25¢",
+      "cover_art": null,
+      "stories": [
+        {
+          "title": "-LOUAL B",
+          "author": "SUGARMAN"
+        }
+      ],
+      "story_count": 1
+    },
+    {
+      "slug": "wt_1923_07",
+      "filename": "wt_1923_07.txt",
+      "volume": "",
+      "number": "",
+      "date": "July 1923",
+      "year": 1923,
+      "editor": "",
+      "cover_price": "",
+      "cover_art": null,
+      "stories": [
+        {
+          "title": "THE STRANGE CASE OP JACOB ARUmJ—^",
+          "author": "JOHN HARRIS BORLAND"
+        },
+        {
+          "title": "BLACK CUNJER",
+          "author": "ISABEL WALKER"
+        },
+        {
+          "title": "VOODOOISM ____WILL W",
+          "author": "NELSON"
+        },
+        {
+          "title": "PEOPLE VS. BLAND",
+          "author": "THEODORE SNOW WOOD"
+        }
+      ],
+      "story_count": 4
+    },
+    {
+      "slug": "wt_1923_09",
+      "filename": "wt_1923_09.txt",
+      "volume": "",
+      "number": "",
+      "date": "September 1923",
+      "year": 1923,
+      "editor": "",
+      "cover_price": "",
+      "cover_art": null,
+      "stories": [
+        {
+          "title": "sibilities, but a surprising number did",
+          "author": "We read"
+        },
+        {
+          "title": "scientifically sound",
+          "author": "Ninety-nine people out of one"
+        },
+        {
+          "title": "been too much for us",
+          "author": "We want to go out and"
+        },
+        {
+          "title": "tray",
+          "author": "Strong emotional situations are as necessary"
+        },
+        {
+          "title": "we can get them is in our reading",
+          "author": "Of late years"
+        },
+        {
+          "title": "newly-founded periodical",
+          "author": "The decision is herewith"
+        },
+        {
+          "title": "carried out",
+          "author": "Enclosed are five tales written between"
+        },
+        {
+          "title": "commercial writing",
+          "author": "My object is such pleasure as"
+        },
+        {
+          "title": "figure since early childhood",
+          "author": "Should any miracle"
+        },
+        {
+          "title": "excisions be made",
+          "author": "If the tale can not be printed"
+        },
+        {
+          "title": "age",
+          "author": "Arthur Machen is the only living man I know"
+        },
+        {
+          "title": "your ‘Eyrie’ from the rest of my sex",
+          "author": "Bnt just"
+        },
+        {
+          "title": "magazine, WEIRD TALES",
+          "author": "Since the very first"
+        },
+        {
+          "title": "ror story you have published",
+          "author": "It was superbly"
+        },
+        {
+          "title": "Irvine was a crackerjack of a yarn",
+          "author": "The serial you"
+        },
+        {
+          "title": "story and enjoyed every one",
+          "author": "We particularly"
+        },
+        {
+          "title": "B. M. Clark, Jr., and ‘The Experiment of Dr",
+          "author": "Calf"
+        }
+      ],
+      "story_count": 17
+    },
+    {
+      "slug": "wt_1923_10",
+      "filename": "wt_1923_10.txt",
+      "volume": "",
+      "number": "",
+      "date": "October 1923",
+      "year": 1923,
+      "editor": "",
+      "cover_price": "",
+      "cover_art": null,
+      "stories": [
+        {
+          "title": "“ ‘I could not but follow",
+          "author": "The door"
+        },
+        {
+          "title": "the stone dwelling on three sides",
+          "author": "To the"
+        },
+        {
+          "title": "me up the path",
+          "author": "Her palm was soft and"
+        },
+        {
+          "title": "hope, eagerness and triumph",
+          "author": "Twice she"
+        },
+        {
+          "title": "lost hope",
+          "author": "At the door she stopped. She"
+        },
+        {
+          "title": "then through another door",
+          "author": "Then she"
+        },
+        {
+          "title": "pride, wisdom, nobility",
+          "author": "Who was this"
+        },
+        {
+          "title": "“ ‘The girl left my side",
+          "author": "She ran to"
+        },
+        {
+          "title": "the bed and knelt down",
+          "author": "First she"
+        },
+        {
+          "title": "By A",
+          "author": "HAVDAL"
+        },
+        {
+          "title": "few minutes’ conversation",
+          "author": "And on one"
+        },
+        {
+          "title": "guess you would call it",
+          "author": "Certainly no"
+        },
+        {
+          "title": "ments",
+          "author": "Though I never did know the"
+        },
+        {
+          "title": "attention",
+          "author": "Had X been superstitious or"
+        },
+        {
+          "title": "his accustomed haunts",
+          "author": "No longer did"
+        },
+        {
+          "title": "Barton",
+          "author": "He fell into step beside me and"
+        },
+        {
+          "title": "wanted to confide in me",
+          "author": "But I held my"
+        },
+        {
+          "title": "ern sky. Red—red like blood",
+          "author": "And then"
+        },
+        {
+          "title": "most forgotten them",
+          "author": "But suddenly"
+        },
+        {
+          "title": "felt suddenly cold and afraid",
+          "author": "TMnking"
+        },
+        {
+          "title": "—just like a hog trough",
+          "author": "One end of it"
+        }
+      ],
+      "story_count": 21
+    }
+  ]
+}

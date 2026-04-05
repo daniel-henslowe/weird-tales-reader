@@ -1,0 +1,94 @@
+/* === Theme & Design Tokens — Weird Tales === */
+:root {
+  /* Sepia (default) — aged pulp paper */
+  --bg: #f2ebe0;
+  --bg-card: #e8dfd0;
+  --text: #1e1410;
+  --text-muted: #6b5040;
+  --accent: #8b0000;
+  --accent-hover: #a50000;
+  --border: #c4aa8a;
+  --divider: #d4bfa0;
+  --shadow: rgba(30, 20, 10, 0.14);
+  --shadow-strong: rgba(30, 20, 10, 0.28);
+  --progress-bg: #d4bfa0;
+  --overlay: rgba(30, 20, 10, 0.55);
+
+  /* Decade gradients */
+  --decade-20s-from: #f5edd8;
+  --decade-20s-to: #e8dcc4;
+  --decade-30s-from: #f0e8d8;
+  --decade-30s-to: #e2d4c0;
+  --decade-40s-from: #ece4d4;
+  --decade-40s-to: #ddd0bc;
+  --decade-50s-from: #e8dfd0;
+  --decade-50s-to: #d8ccb8;
+
+  /* Typography */
+  --font-body: 'Crimson Pro', Georgia, 'Times New Roman', serif;
+  --font-heading: 'Playfair Display', Georgia, serif;
+  --font-mono: 'Courier New', Courier, monospace;
+  --font-size: 18px;
+  --line-height: 1.72;
+  --content-width: 65ch;
+
+  /* Spacing */
+  --space-xs: 0.25rem;
+  --space-sm: 0.5rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2rem;
+  --space-2xl: 3rem;
+  --space-3xl: 4rem;
+
+  /* Transitions */
+  --transition: 0.2s ease;
+}
+
+/* Light theme */
+[data-theme="light"] {
+  --bg: #ffffff;
+  --bg-card: #f9f7f4;
+  --text: #1a1010;
+  --text-muted: #6a5050;
+  --accent: #a00000;
+  --accent-hover: #c00000;
+  --border: #e0d0c0;
+  --divider: #eeeeee;
+  --shadow: rgba(0, 0, 0, 0.08);
+  --shadow-strong: rgba(0, 0, 0, 0.18);
+  --progress-bg: #e0d0c0;
+  --overlay: rgba(0, 0, 0, 0.4);
+  --decade-20s-from: #fff8ee;
+  --decade-20s-to: #f5edd8;
+  --decade-30s-from: #fdf5e8;
+  --decade-30s-to: #f0e8d8;
+  --decade-40s-from: #faf5ee;
+  --decade-40s-to: #ede4d4;
+  --decade-50s-from: #f8f4ee;
+  --decade-50s-to: #e8e0d0;
+}
+
+/* Dark theme */
+[data-theme="dark"] {
+  --bg: #120e0c;
+  --bg-card: #1e1814;
+  --text: #d4c8b8;
+  --text-muted: #7a6858;
+  --accent: #c41a1a;
+  --accent-hover: #d83030;
+  --border: #3a2c24;
+  --divider: #2e2218;
+  --shadow: rgba(0, 0, 0, 0.4);
+  --shadow-strong: rgba(0, 0, 0, 0.6);
+  --progress-bg: #2e2218;
+  --overlay: rgba(0, 0, 0, 0.7);
+  --decade-20s-from: #2a2018;
+  --decade-20s-to: #221a12;
+  --decade-30s-from: #281e16;
+  --decade-30s-to: #201810;
+  --decade-40s-from: #261c14;
+  --decade-40s-to: #1e1610;
+  --decade-50s-from: #241a12;
+  --decade-50s-to: #1c140e;
+}

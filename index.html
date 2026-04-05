@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="sepia">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weird Tales — The Unique Magazine</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/shelf.css">
+</head>
+<body>
+
+  <nav class="site-nav">
+    <a href="index.html" class="site-nav__title">Weird Tales</a>
+    <div class="site-nav__actions">
+      <button class="btn" id="settings-toggle" aria-label="Settings">Settings</button>
+    </div>
+  </nav>
+
+  <header class="shelf-header">
+    <h1 class="shelf-header__masthead">Weird Tales</h1>
+    <p class="shelf-header__subtitle" id="shelf-subtitle">The Unique Magazine &middot; 1923&ndash;1954 &middot; The Complete Archive</p>
+  </header>
+
+  <div class="filters" id="filters">
+    <div class="filters__group" id="decade-filters">
+      <button class="filter-btn filter-btn--active" data-filter="all">All Issues</button>
+      <button class="filter-btn" data-filter="1920s">1920s</button>
+      <button class="filter-btn" data-filter="1930s">1930s</button>
+      <button class="filter-btn" data-filter="1940s">1940s</button>
+      <button class="filter-btn" data-filter="1950s">1950s</button>
+    </div>
+    <div class="filters__separator"></div>
+    <div class="filters__group" id="year-filters"></div>
+  </div>
+
+  <div class="issue-count" id="issue-count"></div>
+
+  <div class="issue-grid" id="issue-grid"></div>
+
+  <footer class="site-footer">
+    Weird Tales &middot; Public Domain Archive &middot; Sourced from the Internet Archive
+  </footer>
+
+  <!-- Settings Panel -->
+  <div class="overlay" id="overlay"></div>
+  <aside class="settings-panel" id="settings-panel">
+    <div class="settings-panel__header">
+      <span class="settings-panel__title">Settings</span>
+      <button class="settings-panel__close" id="settings-close">&times;</button>
+    </div>
+    <div class="settings-group">
+      <div class="settings-group__label">Theme</div>
+      <div class="settings-group__options">
+        <button class="btn btn--active" data-theme-choice="sepia">Sepia</button>
+        <button class="btn" data-theme-choice="light">Light</button>
+        <button class="btn" data-theme-choice="dark">Dark</button>
+      </div>
+    </div>
+  </aside>
+
+  <script src="js/preferences.js"></script>
+  <script src="js/shelf.js"></script>
+</body>
+</html>
