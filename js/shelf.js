@@ -79,6 +79,13 @@
     return ' issue-card--50s';
   }
 
+  function getReadProgress(slug) {
+    try {
+      const v = localStorage.getItem(`wt-progress-${slug}`);
+      return v !== null ? parseInt(v, 10) : null;
+    } catch { return null; }
+  }
+
   function render() {
     const issues = getFilteredIssues();
     countEl.textContent = `${issues.length} issue${issues.length !== 1 ? 's' : ''}`;
@@ -86,11 +93,13 @@
     grid.innerHTML = issues.map(issue => {
       const stories = issue.stories.slice(0, 3);
       const moreCount = issue.stories.length - 3;
+      const progress = getReadProgress(issue.slug);
+      const inProgress = progress !== null && progress > 0;
 
       return `
-        <a href="reader.html?issue=${issue.slug}" class="issue-card${decadeClass(issue.year)}">
+        <a href="reader.html?issue=${issue.slug}" class="issue-card${decadeClass(issue.year)}${inProgress ? ' issue-card--in-progress' : ''}">
           <div class="issue-card__masthead">Weird Tales</div>
-          <div class="issue-card__number">Vol.${issue.volume} No.${issue.number} &middot; ${issue.date}</div>
+          <div class="issue-card__number">${issue.volume && issue.number ? `Vol.${issue.volume} No.${issue.number} &middot; ` : ''}${issue.date}</div>
           ${issue.cover_art ? `
             <div class="issue-card__cover-art">&ldquo;${escapeHtml(issue.cover_art.title)}&rdquo;</div>
             <div class="issue-card__cover-artist">by ${escapeHtml(issue.cover_art.artist)}</div>
@@ -98,13 +107,13 @@
           <hr class="issue-card__divider">
           <ul class="issue-card__stories">
             ${stories.map(s => `
-              <li>&ldquo;${escapeHtml(s.title)}&rdquo; <span class="author">&mdash; ${escapeHtml(s.author)}</span></li>
+              <li>&ldquo;${escapeHtml(s.title)}&rdquo;${s.author ? ` <span class="author">&mdash; ${escapeHtml(s.author)}</span>` : ''}</li>
             `).join('')}
             ${moreCount > 0 ? `<li style="color:var(--text-muted); font-style:italic">+ ${moreCount} more</li>` : ''}
           </ul>
           <div class="issue-card__footer">
             <span class="issue-card__price">${escapeHtml(issue.cover_price || '')}</span>
-            <span class="issue-card__decade">${decadeOf(issue.year)}</span>
+            <span class="issue-card__decade">${inProgress ? '<span class="issue-card__reading-badge">Reading</span>' : decadeOf(issue.year)}</span>
           </div>
         </a>
       `;

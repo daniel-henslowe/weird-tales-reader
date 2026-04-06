@@ -146,44 +146,204 @@ def get_all_identifiers(start_year, end_year):
 
 # ─── IA metadata & file discovery ────────────────────────────────────────────
 
-def get_djvu_txt_filename(identifier):
-    """Return the _djvu.txt filename for an identifier, or None."""
+def get_ia_metadata(identifier):
+    """
+    Fetch IA metadata for an identifier.
+    Returns (djvu_txt_filename, description_html) tuple.
+    description_html contains the structured story list.
+    """
     url = IA_METADATA_URL.format(identifier=identifier)
     meta = fetch_json(url)
     if not meta:
-        return None
+        return None, None
+
+    description = meta.get("metadata", {}).get("description", "") or ""
 
     files = meta.get("files", [])
+    djvu_name = None
     for f in files:
         name = f.get("name", "")
         if name.endswith("_djvu.txt"):
-            return name
+            djvu_name = name
+            break
 
-    # Sometimes the file is named differently — look for any .txt that's not metadata
-    for f in files:
-        name = f.get("name", "")
-        if name.endswith(".txt") and "_meta" not in name and "files.xml" not in name:
-            return name
+    if djvu_name is None:
+        for f in files:
+            name = f.get("name", "")
+            if name.endswith(".txt") and "_meta" not in name and "files.xml" not in name:
+                djvu_name = name
+                break
 
-    return None
+    return djvu_name, description
+
+
+def parse_description_stories(description):
+    """
+    Parse story list from the IA description field.
+
+    Format (from the ISFDB/Galactic Central data IA uses):
+      "7 · The Dead Man's Tale · Willard E. Hawkins · ss"
+      separated by <br /> tags or newlines.
+
+    Returns list of {page, title, author, type_code} dicts.
+    """
+    if not description:
+        return []
+
+    # Strip HTML tags
+    text = re.sub(r"<[^>]+>", "\n", description)
+    # Decode common HTML entities
+    text = text.replace("&amp;", "&").replace("&lt;", "<").replace("&gt;", ">")
+    text = text.replace("&nbsp;", " ").replace("&#160;", " ")
+
+    stories = []
+    for line in text.split("\n"):
+        line = line.strip()
+        if not line:
+            continue
+
+        # Pattern: "page · Title · Author · type_code"
+        # page may be absent (leading spaces for non-fiction)
+        m = re.match(
+            r"^(\d+)\s*[·•]\s*(.+?)\s*[·•]\s*(.+?)\s*[·•]\s*(\w+)\s*$",
+            line
+        )
+        if m:
+            type_code = m.group(4).lower()
+            # Skip letters, editorial notes, ads
+            if type_code in ("lt", "ed", "ms", "bi", "is", "gp"):
+                continue
+            stories.append({
+                "page": int(m.group(1)),
+                "title": m.group(2).strip(),
+                "author": m.group(3).strip(),
+                "type_code": type_code,
+            })
+            continue
+
+        # Pattern without page: "· Title · Author · type"
+        m = re.match(
+            r"^\s*[·•]\s*(.+?)\s*[·•]\s*(.+?)\s*[·•]\s*(\w+)\s*$",
+            line
+        )
+        if m:
+            type_code = m.group(3).lower()
+            if type_code in ("lt", "ed", "ms", "bi", "is", "gp"):
+                continue
+            stories.append({
+                "page": 0,
+                "title": m.group(1).strip(),
+                "author": m.group(2).strip(),
+                "type_code": type_code,
+            })
+
+    return stories
 
 
 # ─── OCR text parsing ─────────────────────────────────────────────────────────
 
 def clean_ocr_text(text):
-    """Basic OCR cleanup: fix common artifacts, normalize whitespace."""
-    # Remove form feed characters (page separators in djvu.txt)
-    text = text.replace("\x0c", "\n\n")
+    """
+    Comprehensive OCR cleanup for Weird Tales djvu.txt files.
 
-    # Fix soft hyphens / line-break hyphens
-    text = re.sub(r"(\w)-\s*\n\s*(\w)", r"\1\2", text)
+    Handles:
+    - UTF-8 mojibake (â€™ → ', â€œ/â€ → "", Â artifacts)
+    - Form feed page separators
+    - Soft-hyphen / column-break word joins
+    - Stray control characters
+    - Common OCR letter confusions (conservative, context-safe)
+    - Running page headers
+    """
+    # ── 1. Encoding fixes (UTF-8 mojibake read as latin-1) ──────────────────
+    # These sequences arise when UTF-8 multi-byte chars are decoded as latin-1
+    mojibake = [
+        ("\xe2\x80\x99", "'"),    # RIGHT SINGLE QUOTATION MARK  '
+        ("\xe2\x80\x98", "'"),    # LEFT SINGLE QUOTATION MARK   '
+        ("\xe2\x80\x9c", '"'),    # LEFT DOUBLE QUOTATION MARK   "
+        ("\xe2\x80\x9d", '"'),    # RIGHT DOUBLE QUOTATION MARK  "
+        ("\xe2\x80\x93", "–"),    # EN DASH
+        ("\xe2\x80\x94", "—"),    # EM DASH
+        ("\xe2\x80\xa6", "..."),  # HORIZONTAL ELLIPSIS
+        ("\xc2\xad", ""),         # SOFT HYPHEN (invisible, remove)
+        ("\xc2\xa0", " "),        # NO-BREAK SPACE
+        ("\xc2\xb6", ""),         # PILCROW
+    ]
+    for bad, good in mojibake:
+        text = text.replace(bad, good)
 
-    # Remove null bytes
-    text = text.replace("\x00", "")
+    # Remaining Â artifacts (orphaned high bytes from UTF-8 sequences)
+    text = re.sub(r"Â(?=[^a-zA-Z]|$)", "", text)
+    text = re.sub(r"â€[™\x99\x9c\x9d]?", "'", text)
 
-    # Normalize Windows line endings
+    # Unicode curly quotes → straight (simplify for reading)
+    text = text.replace("\u2019", "'").replace("\u2018", "'")
+    text = text.replace("\u201c", '"').replace("\u201d", '"')
+    text = text.replace("\u2013", "–").replace("\u2014", "—")
+
+    # ── 2. Control characters ─────────────────────────────────────────────────
+    text = text.replace("\x0c", "\n\n")   # form feed → blank line
+    text = text.replace("\x00", "")       # null bytes
     text = text.replace("\r\n", "\n").replace("\r", "\n")
 
+    # ── 3. Column-break / soft-hyphen word joins ──────────────────────────────
+    # "com-\nmon" → "common",  "some-\n  where" → "somewhere"
+    text = re.sub(r"(\w)\xad\n\s*(\w)", r"\1\2", text)          # soft hyphen
+    text = re.sub(r"(\w)¬\n\s*(\w)", r"\1\2", text)              # ¬ artifact
+    text = re.sub(r"(\w)-\n\s{,6}([a-z])", r"\1\2", text)       # hyphen at line end → lowercase continues
+
+    # ── 4. Common OCR letter confusions ──────────────────────────────────────
+    # These are high-confidence, context-safe substitutions
+    # (only whole-word matches to avoid corrupting proper names)
+    ocr_words = [
+        # "l" misread as "i", "1", "!" etc.
+        (r"\btlie\b", "the"),
+        (r"\bTlie\b", "The"),
+        (r"\btbe\b", "the"),
+        (r"\bTbe\b", "The"),
+        (r"\btke\b", "the"),
+        (r"\bTke\b", "The"),
+        (r"\bTKe\b", "The"),
+        (r"\bTKE\b", "THE"),
+        (r"\blie\b(?=\s+[a-z])", "the"),   # "lie" as "the" only when followed by lowercase (avoids "lie" as verb)
+        # "Av" misread for "W"
+        (r"\bAvhich\b", "which"),
+        (r"\bAvhich\b", "which"),
+        (r"\bAvhere\b", "where"),
+        (r"\bAvhen\b", "when"),
+        (r"\bAvhat\b", "what"),
+        (r"\bAvas\b", "was"),
+        (r"\bAvith\b", "with"),
+        # "rn" misread as "m"
+        (r"\btumed\b", "turned"),
+        (r"\btum\b", "turn"),
+        # "n" / "a" confusion
+        (r"\bwns\b", "was"),
+        (r"\bwere\b", "were"),  # no-op but safe
+        (r"\bwith\b", "with"),  # no-op
+        # "h" / "b" confusion
+        (r"\blie\b(?=\s+had\b|\s+was\b|\s+could\b|\s+would\b|\s+did\b)", "he"),
+        # "0" / "O" confusion in words
+        (r"\b0ne\b", "One"),
+        (r"\b0f\b", "of"),
+        # Common stuck words
+        (r"\bNewWay\b", "New Way"),
+        (r"\bUNiaUE\b", "UNIQUE"),
+    ]
+    for pattern, replacement in ocr_words:
+        text = re.sub(pattern, replacement, text)
+
+    # ── 5. Running magazine headers (appear at top of each page in OCR) ───────
+    text = re.sub(r"(?m)^WEIRD TALES\s*$", "", text)
+    text = re.sub(r"(?m)^THE UNIQUE MAGAZINE\s*$", "", text)
+    text = re.sub(r"(?m)^Weird Tales\s*$", "", text)
+
+    # ── 6. Stray single characters on their own lines (OCR noise) ────────────
+    text = re.sub(r"(?m)^[^a-zA-Z0-9\s]{1,3}\s*$", "", text)
+    text = re.sub(r"(?m)^[a-zA-Z]{1}\s*$", "", text)   # single-letter lines
+
+    # ── 7. Whitespace normalization ───────────────────────────────────────────
+    # Multiple spaces → single
+    text = re.sub(r"[ \t]{2,}", " ", text)
     # Collapse 3+ blank lines to 2
     text = re.sub(r"\n{3,}", "\n\n", text)
 
@@ -336,15 +496,9 @@ def find_story_boundaries(lines, stories):
     """
     Locate story sections in OCR text using "By [Author]" lines as anchors.
 
-    In Weird Tales (1920s-50s), each story's heading looks like:
-        THE DEAD MAN'S TALE          ← display title (all-caps, short line)
-        By Willard E. Hawkins        ← author byline
-
-    Strategy:
-    1. Find all "By [Author]" bylines in the text.
-    2. Match each byline to a known story from the TOC (by author name).
-    3. Look backwards up to 8 lines to find the title line(s).
-    4. Return (title_start, content_start, story_dict) tuples.
+    Key insight: we ONLY match bylines whose author name appears in our known
+    story list (from the IA description). This prevents false positives from
+    mid-sentence "by" phrases in poorly OCR'd issues.
 
     Returns list of (start_line, end_line, story_dict) tuples.
     """
@@ -353,65 +507,85 @@ def find_story_boundaries(lines, stories):
 
     total_lines = len(lines)
 
-    # Build a lookup of known authors → story
-    author_to_story = {}
-    for s in stories:
-        key = normalize_name(s.get("author", ""))
-        if key:
-            author_to_story[key] = s
+    # Build author lookup: normalized full name → story
+    # Also build last-name-only lookup for partial matching
+    author_full = {}   # "willard e hawkins" → story
+    author_last = {}   # "hawkins" → story (only if last name is unique)
 
-    # Find all "By [Author]" lines
-    byline_pattern = re.compile(r"^\s*[Bb]y\s+([A-Z][a-zA-Z][a-zA-Z\s\.\-\']{2,})\s*$")
+    for s in stories:
+        raw = s.get("author", "")
+        key = normalize_name(raw)
+        if key:
+            author_full[key] = s
+            parts = key.split()
+            if parts:
+                last = parts[-1]
+                if len(last) > 3:  # skip short/ambiguous last names
+                    if last not in author_last:
+                        author_last[last] = s
+                    else:
+                        author_last[last] = None  # mark as ambiguous
+
+    byline_re = re.compile(r"^\s*[Bb]y\s+(.+?)\s*$")
     found_bylines = []
 
     for i, line in enumerate(lines):
-        m = byline_pattern.match(line)
+        m = byline_re.match(line)
         if not m:
             continue
 
         author_raw = m.group(1).strip()
+
+        # Hard filter: byline must be short (real author names ≤ ~40 chars)
+        if len(author_raw) > 45:
+            continue
+
+        # Hard filter: must not contain sentence punctuation (comma mid-name OK)
+        if re.search(r"[.!?;:]", author_raw):
+            continue
+
+        # Hard filter: must start with a capital letter
+        if not author_raw[0].isupper():
+            continue
+
         author_key = normalize_name(author_raw)
+        story = author_full.get(author_key)
 
-        # Match to known story
-        story = author_to_story.get(author_key)
+        # Try last-name-only match
         if story is None:
-            # Try partial match (last name only)
-            last_name = author_key.split()[-1] if author_key.split() else ""
-            for key, s in author_to_story.items():
-                if last_name and last_name in key:
-                    story = s
-                    break
+            parts = author_key.split()
+            if parts:
+                cand = author_last.get(parts[-1])
+                if cand is not None:  # None means ambiguous
+                    story = cand
 
-        if story:
-            # Find title start — look back up to 8 lines for a short non-empty line
-            title_start = i
-            for back in range(1, 9):
-                if i - back < 0:
-                    break
-                candidate = lines[i - back].strip()
-                if candidate and len(candidate) < 80:
-                    title_start = i - back
-                    # Keep going back to catch multi-line titles
-                elif candidate == "":
-                    continue
-                else:
-                    break
+        if story is None:
+            continue
 
-            # Content starts after the byline
-            content_start = i + 1
+        # Find title start — look back up to 10 lines for short non-empty lines
+        title_start = i
+        for back in range(1, 11):
+            if i - back < 0:
+                break
+            candidate = lines[i - back].strip()
+            if candidate and len(candidate) < 80:
+                title_start = i - back
+            elif candidate == "":
+                continue
+            else:
+                break
 
-            found_bylines.append((title_start, content_start, story))
+        content_start = i + 1
+        found_bylines.append((title_start, content_start, story))
 
     if not found_bylines:
         return []
 
-    # Sort by position, deduplicate (same author appearing twice → keep first occurrence
-    # that's deep enough in the file, past the TOC)
-    # Estimate where TOC ends (first 30% of file)
-    toc_cutoff = total_lines // 5
+    # Discard matches in the first 15% of the file (TOC region)
+    toc_cutoff = max(50, total_lines // 7)
     found_bylines = [(ts, cs, s) for ts, cs, s in found_bylines if ts > toc_cutoff]
 
-    # Deduplicate by story title
+    # Sort and deduplicate by story title (keep earliest occurrence)
     seen_titles = set()
     deduped = []
     for ts, cs, story in sorted(found_bylines, key=lambda x: x[0]):

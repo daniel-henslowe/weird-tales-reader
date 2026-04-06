@@ -1,8 +1,23 @@
-/* === iPad Touch Gestures === */
+/* === Reader Input: Touch Gestures + Keyboard === */
 (function () {
   'use strict';
 
   if (!window.ReaderNav) return;
+
+  // Keyboard navigation
+  document.addEventListener('keydown', (e) => {
+    // Don't intercept when focus is in an input or drawer is open
+    if (e.target.matches('input, textarea, select')) return;
+    if (e.metaKey || e.ctrlKey || e.altKey) return;
+
+    if (e.key === 'ArrowRight' || e.key === 'ArrowDown') {
+      e.preventDefault();
+      ReaderNav.nextSection();
+    } else if (e.key === 'ArrowLeft' || e.key === 'ArrowUp') {
+      e.preventDefault();
+      ReaderNav.prevSection();
+    }
+  });
 
   const SWIPE_THRESHOLD = 50;   // minimum px for a swipe
   const TAP_ZONE = 0.20;        // 20% from each edge

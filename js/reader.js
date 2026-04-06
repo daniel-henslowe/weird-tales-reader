@@ -21,6 +21,21 @@
   const tocList = document.getElementById('toc-list');
   const tocInfo = document.getElementById('toc-issue-info');
 
+  // ── Reading progress ────────────────────────────────────────────────────────
+  const PROGRESS_KEY = `wt-progress-${issueSlug}`;
+
+  function saveProgress(idx) {
+    try { localStorage.setItem(PROGRESS_KEY, idx); } catch {}
+  }
+
+  function loadProgress() {
+    try {
+      const v = localStorage.getItem(PROGRESS_KEY);
+      return v !== null ? parseInt(v, 10) : null;
+    } catch { return null; }
+  }
+  // ────────────────────────────────────────────────────────────────────────────
+
   async function init() {
     sectionParam = parseInt(window.location.hash.replace('#section-', ''), 10) || null;
 
@@ -41,7 +56,13 @@
 
     const text = await textResp.text();
     sections = parseIssueText(text);
-    currentSection = sectionParam != null ? Math.min(sectionParam, sections.length - 1) : 0;
+
+    if (sectionParam != null) {
+      currentSection = Math.min(sectionParam, sections.length - 1);
+    } else {
+      const saved = loadProgress();
+      currentSection = (saved !== null && saved > 0) ? Math.min(saved, sections.length - 1) : 0;
+    }
 
     document.title = `${issueData.date} — Weird Tales`;
     navTitle.textContent = `Weird Tales \u00b7 ${issueData.date}`;
@@ -160,9 +181,12 @@
   }
 
   function buildTOC() {
+    const volNum = issueData.volume && issueData.number
+      ? `Vol.${escapeHtml(issueData.volume)} No.${escapeHtml(String(issueData.number))} &middot; `
+      : '';
     tocInfo.innerHTML = `
       <strong>Weird Tales</strong><br>
-      Vol.${escapeHtml(issueData.volume)} No.${escapeHtml(String(issueData.number))} &middot; ${escapeHtml(issueData.date)}<br>
+      ${volNum}${escapeHtml(issueData.date)}<br>
       ${escapeHtml(issueData.editor || '')}
     `;
 
@@ -200,6 +224,7 @@
     if (!sec) return;
 
     currentSection = idx;
+    saveProgress(idx);
     window.history.replaceState(null, '', `?issue=${issueSlug}#section-${idx}`);
     updateTOCActive(idx);
 

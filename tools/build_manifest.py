@@ -62,12 +62,15 @@ def parse_toc(lines):
     stories = []
     for line in lines:
         stripped = line.strip()
-        m = re.match(r'\d+\.\s+"(.+?)"\s+by\s+(.+)', stripped)
+        # Match: N. "Title" by Author  (author may be absent)
+        m = re.match(r'\d+\.\s+"(.+?)"(?:\s+by\s+(.*))?$', stripped)
         if m:
-            stories.append({
-                "title": m.group(1).strip(),
-                "author": m.group(2).strip(),
-            })
+            title = m.group(1).strip()
+            author = (m.group(2) or '').strip()
+            # Skip placeholder TOC entries
+            if title.lower() in ('full issue text',):
+                continue
+            stories.append({"title": title, "author": author})
     return stories
 
 
@@ -127,7 +130,9 @@ def parse_issue(filepath):
 
 
 def main():
-    files = sorted(ISSUES_DIR.glob("*.txt"))
+    # Only process clean wt_*.txt files; the weird_tales_v_*.txt files are raw
+    # OCR dumps (often garbled) and are excluded until manually cleaned up.
+    files = sorted(ISSUES_DIR.glob("wt_*.txt"))
     if not files:
         print(f"ERROR: No .txt files found in {ISSUES_DIR}", file=sys.stderr)
         sys.exit(1)
