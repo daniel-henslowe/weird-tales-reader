@@ -97,8 +97,8 @@
 
     const result = [];
 
-    // Skip first 3 dividers (header, cover art, toc blocks) — same as tales-reader
-    let i = 3;
+    // Skip first 4 dividers: header-start, header-end, cover/toc-start, toc-end
+    let i = 4;
     while (i < dividerIndices.length) {
       const startDiv = dividerIndices[i];
 
