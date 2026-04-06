@@ -9,7 +9,6 @@ TABLE OF CONTENTS
   1. "The Maze of Maal Dweb" by Clark Ashton Smith
 ============================================================
 ============================================================
-THE MAZE OF MAAL DWEB
 by Clark Ashton Smith
 ============================================================
 plain.
@@ -22,7 +21,7 @@ Dweb
 
 By CLARK ASHTON SMITH
 
-What strange and bizarre fate awaited the girl Athle and the hunter Tiglari in the fearsome labyrinth of the enchanter ?
+What strange and bizarre fate awaited the girl Athle and the hunter Tiglari in the fearsome labyrinth of the enchanter?
 
 B Y THE light of the four small waning moons of Xiccarph, Tiglari had crossed that bottomless swamp wherein no reptile dwelt and no dragon descended; but where the pitch-black ooze was alive with incessant heavings. He had not cared to use the high causey of • corundum that spanned the fen, and had threaded his way with much peril from isle to sedgy isle that shuddered gelatinously beneath him. When he reached the solid shore and the shelter of the palmtall rushes, he did not approach the porphyry stairs that wound skyward through giddy chasms and along glassy scarps to the house of Maal Dweb. The causey and the stairs were guarded by the silent, colossal automatons of Maal Dweb, whose
 
@@ -48,7 +47,6 @@ With endless caution the hunter made his way forward, seeking a rift in the mons
 
 Maal Dweb had taken ever the fairest from among the maidens of the planet Xiccarph; and no mansion of tire walled towns, or outland cave, was exempt from his scrutiny. He had chosen no less than fifty girls during the period of his tyranny; and these, forsaking their lovers and kinsfolk voluntarily, lest the wrath of Maal Dweb should descend upon
 
-THE MAZE OF MAAL DWEB
 
 
 them, had gone one by one to the mountain citadel and were lost behind its cryptic walls. There, as the odalisques of the aging sorcerer, they were supposed to dwell in halls that multiplied their beauty with a thousand mirrors; and were said to have for servants women of brass and men of iron.
@@ -89,7 +87,6 @@ On the couch, in sober garments, a man reclined as if weary or asleep. The man�
 
 Like ghostly sentinels, the symbols of the grandeur of Maal Dweb, the images of his frightful empire, rose up to confront Tiglari. But the thought of Athle was a red mist that blotted all. He forgot his eery terrors, his awe of that wizard palace. The rage of the bereaved lover, the blood-thirst of the cunning hunter awoke within him. He neared the unconscious sorcerer; and his hand tightened on the hilt of the needle-sharp knife that had been dipped in viper-venom.
 
-THE MAZE OF MAAL DWEB
 
 
 T he man before him lay with closed eyes and a cryptic weariness on his mouth and eyelids. He seemed to meditate rather than sleep, like one who wanders in a maze of distant memories or profound reveries. About him the walls were draped with funereal hangings, darkly figured. Above him the twin censers wrought a cloudy glow, and diffused throughout the room their drowsy myrrh, which made Tiglari’s senses swim with a strange dimness.
@@ -122,7 +119,7 @@ Now, in the lit air, a voice began to speak; a voice that was toneless, delibera
 
 "I seek the maiden Athle,” said Tiglari. "What have you done with her?”
 
-"Athle is very beautiful,” returned the voice. "It is the will of Maal Dweb to make a certain use of her loveliness. The use is not one that should concern a hunter of wild beasts. . . . You are unwise, Tiglari.”
+"Athle is very beautiful,” returned the voice. "It is the will of Maal Dweb to make a certain use of her loveliness. The use is not one that should concern a hunter of wild beasts.... You are unwise, Tiglari.”
 
 "Where is Athle?” persisted the hunter.
 
@@ -140,14 +137,13 @@ Now he was mounting through arbors of malignant hydra growths that coiled and un
 
 W. T. — 6
 
-THE MAZE OF MAAL DWEB
 
 
 Far off, and seeming to fall from some hidden height in the maze before him, he heard a chorus of brazen voices that were like articulate bells. He could not distinguish tire words; but the accents were those of a solemn announcement, fraught with -portentous finality. They ceased; and there was no sound other than the hiss and rustle of swaying plants.
 
 It seemed now, as Tiglari went on, that his every step was predestined. He v.’as no longer free to choose his way; for many of the paths were overgrown by things that he did not care to face; and others were blocked by horrid portcullises of cacti, or ended in pools that teemed with leeches larger than tunnies. The second and third suns arose, heightening with their emerald and carmine rays the horror of the strange web dosing ineluctably about him.
 
-He climbed on by stairs that reptilian vines had taken, and gradients lined with tossing, dashing aloes. Rarely could he see the reaches below, or the levels toward which he was tending. Somewhere on the blind path he met one of the apelike animals of Maal Dweb: a dark, savage creature, sleek and glistening like a wet otter, as if it bathed in one of the pools. It passed him with a hoarse growl, recoiling as the others had done from his repulsively smeared body. . . . But nowhere could he find the maiden Athle, or the warrior Mocair, who had preceded him into the maze.
+He climbed on by stairs that reptilian vines had taken, and gradients lined with tossing, dashing aloes. Rarely could he see the reaches below, or the levels toward which he was tending. Somewhere on the blind path he met one of the apelike animals of Maal Dweb: a dark, savage creature, sleek and glistening like a wet otter, as if it bathed in one of the pools. It passed him with a hoarse growl, recoiling as the others had done from his repulsively smeared body.... But nowhere could he find the maiden Athle, or the warrior Mocair, who had preceded him into the maze.
 
 Now' he came to a curious little pavement cf onyx, oblong, and surrounded by enormous flowers w'ith bronze-like stems and great leaning bells that might have been the mouths of chimeras, yawning to disclose their crimson throats. He stepped forward upon the pavement through a narrow gap in this singular hedge, and stood staring irresolutely at the serried blooms: for here the way seemed to end.
 
@@ -172,13 +168,13 @@ Tiglari felt as if he were sinking into some obscure and terrible fen. He could
 
 comprehend nothing of what had befallen Athle; and his own fate was an equally dark and dreadful enigma, beyond the solution of a simple hunter.
 
-Now the blossoms had lifted about his shoulders, were laving his arms, his body* Beneath their abhorrent alchemy the transformation continued. A long fur sprang up on the thickening torso; the arms lengthened; they became simian; the hands took on a likeness to the feet. ; From the neck downward, Tiglari differed in no wise from the apish creatures of the garden.
+Now the blossoms had lifted about his shoulders, were laving his arms, his body* Beneath their abhorrent alchemy the transformation continued. A long fur sprang up on the thickening torso; the arms lengthened; they became simian; the hands took on a likeness to the feet.; From the neck downward, Tiglari differed in no wise from the apish creatures of the garden.
 
 In helpless abject horror, he waited for the completion of the metamorphosis.. Then he became aware that a man in sober garments, with eyes and mouth filled with the weariness of strange things, was standing before him. Behind the man were two of the sickle-handed iron automatons.
 
 In a somewhat languid voice, the man uttered an unknown word that vibrated in the air with prolonged, mysterious aftertones. The circle of craning flowers drew back from Tiglari, resuming their former upright positions in a close hedge; and the wiry tendrils were withdrawn from his ankles. Hardly able to comprehend his release, he heard a sound of brazen voices, and knew dimly that the demon heads of the columns had spoken, saying:
 
-"The hunter Tiglari has been laved in the nectar of the blossoms of primordial life, and has become in all ways, from the neck downward , even as the beasts that he hunted.”
+"The hunter Tiglari has been laved in the nectar of the blossoms of primordial life, and has become in all ways, from the neck downward, even as the beasts that he hunted.”
 
 When the chorus ceased, the weary man in sober raiment came nearer and addressed him:
 
@@ -191,7 +187,7 @@ A great awe was upon Tiglari; his native fierceness, his savage volition, were t
 
 Maal Dweb, attended by his metal slaves, went over to the figure of Athle, which still regarded the mirror with astonished eyes.
 
-"Mong Lut,” he said, addressing by name the nearer of the two automatons at his heels, "it has been, as you know, my caprice to eternalize the frail beauty of women. Athle, like the others before her, has explored my ingenious maze, and has looked into that mirror whose sudden radiance turns the flesh to a stone fairer than marble and no less enduring. . . . Also, as you know, it has been my whim to turn men into beasts with the copious
+"Mong Lut,” he said, addressing by name the nearer of the two automatons at his heels, "it has been, as you know, my caprice to eternalize the frail beauty of women. Athle, like the others before her, has explored my ingenious maze, and has looked into that mirror whose sudden radiance turns the flesh to a stone fairer than marble and no less enduring.... Also, as you know, it has been my whim to turn men into beasts with the copious
 
 fluid of certain artificial flowers,, so that their outer semblance should conform more strictly to their inner nature. Is it not well, Mong Lut, that I have done these things? 'Am I not Maal Dweb, in whom all knowledge and all power reside?”
 
@@ -213,7 +209,7 @@ Woe be to the luckless man who encounters the Black Monk of
 
 Chaard Island!
 
-Y ES. It’s true that I’m dictating this, but don’t picture to yourself a famous author, a luxurious study, and a highly paid secretary. No! I’m dictating this for publication because I promised the Abbot of Chaard that I would. I can’t go against his wishes. Not again.
+YES. It’s true that I’m dictating this, but don’t picture to yourself a famous author, a luxurious study, and a highly paid secretary. No! I’m dictating this for publication because I promised the Abbot of Chaard that I would. I can’t go against his wishes. Not again.
 
 "A ll lies and rubbish! Don’t you be- -Gadieve a word of it, sir. It suits them,” the gamekeeper jerked a thumb in the direction of the monastery behind him, "to keep such fairy-tales alive. Gives them a hold on the people. Everyone on this island believes in the Black Monk, swears they’ve caught sight of him on the prowl. I never have — and why? Because I’m not afraid. It’s all rubbish, so I tell you straight, damned rubbish.”
 
@@ -244,9 +240,9 @@ Chaard was settling down for sleep already. The revolving brilliance of its ligh
 
 gables, down to the sand-dunes where tall rushes dipped and whispered in the moonlight, down to the crescent of Pirates’ Bay — its fine pale sand ground by thundering surf that now was a mere murmurous line of white edging distant sea.
 
-There I go . . . there I go! I apologize. I’ll restrain myself. You’ll understand later why the enchanted background of the island on a supremely lovely night is so difficult for me to keep out of this account. You may forgive a poor devil then for looking back on a lost paradise.
+There I go... there I go! I apologize. I’ll restrain myself. You’ll understand later why the enchanted background of the island on a supremely lovely night is so difficult for me to keep out of this account. You may forgive a poor devil then for looking back on a lost paradise.
 
-I SAT on an upturned boat, smoked and dreamed, let the long strange history of Chaard Island float across my mind like weed on a shallow pool. An hour — two hours — I don’t know’ how long I sat there. My lighter ran dry at last, I had no matches, and the search for them shook me out of dreams. I felt stiff and rather cold.
+ISAT on an upturned boat, smoked and dreamed, let the long strange history of Chaard Island float across my mind like weed on a shallow pool. An hour — two hours — I don’t know’ how long I sat there. My lighter ran dry at last, I had no matches, and the search for them shook me out of dreams. I felt stiff and rather cold.
 
 "Well, you’re late if you mean to land tonight, old man!”
 
@@ -316,9 +312,8 @@ I could see myself, in plus-fours and cap, a discord, an alien figure on that lo
 
 A new idea struck me.
 
-THE BLACK MONK
 
-487 ,
+487,
 
 "I’ve never met any of you before at this hour. Aren’t there rules? I thought the monastery bolted and barred you in your cells long before this.”
 
@@ -415,7 +410,7 @@ By H. P. LOVECRAFT
 
 A short weird fantasy by a late great master of bizarre fiction
 
-A TOP the tallest of earth’s peaks /■% dwell the gods of earth, and suf- ■“. fer no man to tell that he hath looked upon them. Lesser peaks they once inhabited; but ever the men from the plains would scale the slopes of rock and snow, driving the gods to higher §tnd higher mountains till now only the last remains. When they left their older peaks they took with them all signs of themselves, save once, it is said, when they left a carven image on the face of the mountain which they called Ngranek.
+ATOP the tallest of earth’s peaks /■% dwell the gods of earth, and suf- ■“. fer no man to tell that he hath looked upon them. Lesser peaks they once inhabited; but ever the men from the plains would scale the slopes of rock and snow, driving the gods to higher §tnd higher mountains till now only the last remains. When they left their older peaks they took with them all signs of themselves, save once, it is said, when they left a carven image on the face of the mountain which they called Ngranek.
 
 But now they have betaken themselves to unknown Kadath in the cold waste where no man treads, and are grown stern, having no higher peak whereto to flee at the coming of men. They are grown stem, and where once they suffered men to displace them, they now forbid men to come; or coming, to depart. It is well for men that they know not of Kadath' in the cold waste; else they would seek injudiciously to scale it.
 
@@ -434,7 +429,7 @@ time, and deadly to climb it by night when pale vapors hide the summit and tire 
 
 B arzai and Atal went out of Hatheg into the stony desert despite the prayers of peasants, and talked of earth’s gods by their campfires at night. Many days they traveled, and from afar saw lofty Hatheg-Kla with his aureole of mournful mist. On the thirteenth day they reached the mountain’s lonely base, and Atal spoke of his fears. But Barzai was old and learned and had no fears, so led the way boldly up the slope that no man had scaled since the time of Sansu, who is written of with fright in the moldy Pnakotic Manuscripts.
 
-The way was rocky, and made perilous by chasms, cliffs, and falling stones. Later it grew cold and snowy; and Barzai and Atal often slipped and fell as they hewed and plodded upward with staves and axes. Finally the air grew thin, and the sky changed color, and the climbers, found it hard to breathe; but still they toiled up and up, marveling at the strangeness of the scene and thrilling at the thought of what would happen on the summit when the moon was out and the pale vapors spread around. For .three days they climbed higher and higher toward the roof of the world; then they camped to wait for the clouding of the moon.
+The way was rocky, and made perilous by chasms, cliffs, and falling stones. Later it grew cold and snowy; and Barzai and Atal often slipped and fell as they hewed and plodded upward with staves and axes. Finally the air grew thin, and the sky changed color, and the climbers, found it hard to breathe; but still they toiled up and up, marveling at the strangeness of the scene and thrilling at the thought of what would happen on the summit when the moon was out and the pale vapors spread around. For.three days they climbed higher and higher toward the roof of the world; then they camped to wait for the clouding of the moon.
 
 For four nights no clouds came, and the moon shone down cold through the thin mournful mists around the silent pinnacle. Then on the fifth night, which
 
@@ -444,7 +439,6 @@ So thick were the vapors that the way was hard, and though Atal followed on at l
 
 Very suddenly Barzai went out of Atal’s sight, scaling a hideous cliff that seemed to bulge outward and block the path for any climber not inspired of earth’s gods. Atal was far below, and planning what he should do when he reached the place, when curiously he noticed that the light had grown strong, as if the cloudless peak and moonlit meeting-place of the gods were very near.. And as he scrambled on toward the bulging cliff and litten sky he felt fears more shocking than any he had known before^
 
-THE OTHER GODS
 
 
 Then through the high mists he heard the voice of unseen Barzai shouting wildly in delight:
@@ -453,19 +447,19 @@ Then through the high mists he heard the voice of unseen Barzai shouting wildly 
 
 Atal could not hear the voices Barzai heard, but he was now close to the bulging cliff and scanning it for footholds. Then he heard Barzai’s voice grow shriller and louder:
 
-"The mist is very thin, and the moon casts shadows on the slope; the voice of earth’s gods are high and wild, and they fear the coming of Barzai the Wise, who is greater than they. . . . The moon’s light flickers, as earth’s gods dance against it; I shall see the dancing forms of the gods that leap and howl in the moonlight. . . . The light is dimmer and the gods are afraid. . .
+"The mist is very thin, and the moon casts shadows on the slope; the voice of earth’s gods are high and wild, and they fear the coming of Barzai the Wise, who is greater than they.... The moon’s light flickers, as earth’s gods dance against it; I shall see the dancing forms of the gods that leap and howl in the moonlight.... The light is dimmer and the gods are afraid...
 
-W hilst Barzai was shouting these things Atal felt a spectral change in all the air, as if the laws of earth were bowing to greater laws; for though the way was steeper than ever, the upward path was now grown fearsomely easy, and the bulging cliff proved scarce an obstacle when he reached it and slid perilously up its convex face. The light of the moon had strangely failed, and as Atal plunged upward through the mists he heard Barzai the Wise shrieking in the shadows :
+W hilst Barzai was shouting these things Atal felt a spectral change in all the air, as if the laws of earth were bowing to greater laws; for though the way was steeper than ever, the upward path was now grown fearsomely easy, and the bulging cliff proved scarce an obstacle when he reached it and slid perilously up its convex face. The light of the moon had strangely failed, and as Atal plunged upward through the mists he heard Barzai the Wise shrieking in the shadows:
 
 "The moon is dark, and the gods
 
-dance in the night; there is terror in the sky, for upon the moon hath sunk an eclipse foretold in no books of men or of earth’s gods. . . . There is unknown magic on Hatheg-Kla, for the screams of the frightened gods have turned to laughter, and the slopes of ice shoot up endlessly -into the black heavens whither I am plunging. . . . Hei! Hei! At last! In the dim light I behold the gods of earth!”
+dance in the night; there is terror in the sky, for upon the moon hath sunk an eclipse foretold in no books of men or of earth’s gods.... There is unknown magic on Hatheg-Kla, for the screams of the frightened gods have turned to laughter, and the slopes of ice shoot up endlessly -into the black heavens whither I am plunging.... Hei! Hei! At last! In the dim light I behold the gods of earth!”
 
 And now Atal, slipping dizzily up over inconceivable steeps, heard in the dark a loathsome laughing, mixed with such a cry as no man else ever heard save in the Phlegethon of unrelatable nightmares; a cry wherein reverberated the horror and anguish of a haunted lifetime packed into one atrocious moment:
 
-"The other gods! The other gods! The gods of the outer hells that guard the feeble gods of earth! . . . Look away.
+"The other gods! The other gods! The gods of the outer hells that guard the feeble gods of earth!... Look away.
 
-. . . Go back. . . . Do not see! Do not see! The vengeance of the infinite abysses. . . . That cursed, that damnable pit. . . . Merciful gods of earth, I am falling into the sky!”
+... Go back.... Do not see! Do not see! The vengeance of the infinite abysses.... That cursed, that damnable pit.... Merciful gods of earth, I am falling into the sky!”
 
 And as Atal shut his eyes and stopped his ears and tried to jump downward against the frightful pull from unknown heights, there resounded on Hatheg-Kla that terrible peal of thunder w'hich awaked the good cotters of the plains and the honest burgesses of Hatheg, Nir and Ulthar, and caused them to behold through the clouds that strange eclipse of the moon that no book ever predicted. And when the moon came out at last Atal was safe on the lower snows of the mountain without sight of earth’s gods, or of the other gods.
 
@@ -493,7 +487,7 @@ And they twittered and squeaked As they danced in the green moonlight.
 
 And out of the boughs of the twisted thorn Came the wail of a violin,
 
-Queer and evil and sad and thin . . .
+Queer and evil and sad and thin...
 
 And though there was nobody one could see. Somebody played in the twisted tree Queer, sad tunes for the witches three.
 
@@ -507,7 +501,7 @@ By MANLY WADE WELLMAN
 
 A tale of fear
 
-W HEN I was twelve years old I lived in a shabby old two-story house, built square below and double-gabled above. The four gables contained an upstairs room apiece, each facing a different direction and the entire four making a cross, with a hall and stairwell at the center. The front and side rooms were ceiled and plastered and kalsomined, for bedrooms, but the unfinished rear one held only trunks, boxes and broken furniture. This part of the house was hot and dusty, and open right up to the peak of its gable. Directly above its doorway to the central hall gaped an empty dark triangle, leading into the slant-sided cave above the bedroom ceilings. This lumber-room was called the garret, though it was not a real garret. The real garret was that dark space, up under the roof.
+WHEN I was twelve years old I lived in a shabby old two-story house, built square below and double-gabled above. The four gables contained an upstairs room apiece, each facing a different direction and the entire four making a cross, with a hall and stairwell at the center. The front and side rooms were ceiled and plastered and kalsomined, for bedrooms, but the unfinished rear one held only trunks, boxes and broken furniture. This part of the house was hot and dusty, and open right up to the peak of its gable. Directly above its doorway to the central hall gaped an empty dark triangle, leading into the slant-sided cave above the bedroom ceilings. This lumber-room was called the garret, though it was not a real garret. The real garret was that dark space, up under the roof.
 
 I was the youngest person in the house by more than a decade, and my youth offended everyone bitterly. I was constantly reminded of my childish stupidity and inexperience. Nobody felt that years would mend me, and in time I grew to share that opinion. I tried never to make a statement or venture an opinion that had not been voiced previously by one of my elders. Even at that, I came in for plenty of snubs and corrections, and learned to withdraw into myself. The downstairs parlor was full of books, and I read in them a great deal, including nearly all of an old Encyclopedia Britannica. This taste for reading attracted some curious attention on the part of my guardians; occasionally one of them
 
@@ -526,7 +520,7 @@ stretching out a thin, loose portion of itself, then rolling and flowing all of 
 
 Before long I was hearing the noise every night. I would wait for it, lying awake until it humped itself across the ceiling above me. Always with it came fear, fear that did not diminish with time. I would stare in the dark, my tongue would dry up between my teeth, and my fingertips would tingle as though they had been rubbed sore. On my back would sprout and fan and winnow little involuntary wings of chill, making my spine shrink and quiver as though ice mingled with the marrow’. The ceiling, I knew, v’ould descend some night upon me like a great millstone, then crumble about my bed. Something huge and soft would wriggle free of the broken bits and sprawl upon me.
 
-There could be no talking about the business, I well knew. Long before, I had learned that nobody would listen or care. As I have said, I was resented by the other dv'ellers in that house. Once, when a neighbor boy of fifteen gave me a terrible beating in the front yard, everyone watched from our front window’s, but none stirred to help me, not even when J thought I w’ould fall dead at my enemy’s scornful feet. When, tired of pulping my face with his knuckles, he turned away at last, I dragged myself in and was tonguelashed on all sides for an hour. Today I cannot remember exactly what was .urged against me s but the tears I had not shed for pain welled forth under the scolding. Things like that made me hesitate about asking for help. One morning I did inquire at breakfast if the others had heard anything strange; but I was only reprimanded for interrupting a discussion of local politics.
+There could be no talking about the business, I well knew. Long before, I had learned that nobody would listen or care. As I have said, I was resented by the other dv'ellers in that house. Once, when a neighbor boy of fifteen gave me a terrible beating in the front yard, everyone watched from our front window’s, but none stirred to help me, not even when J thought I w’ould fall dead at my enemy’s scornful feet. When, tired of pulping my face with his knuckles, he turned away at last, I dragged myself in and was tonguelashed on all sides for an hour. Today I cannot remember exactly what was.urged against me s but the tears I had not shed for pain welled forth under the scolding. Things like that made me hesitate about asking for help. One morning I did inquire at breakfast if the others had heard anything strange; but I was only reprimanded for interrupting a discussion of local politics.
 
 T hat night the noise was louder and more terrifying than ever. It began above some other room, and then it trundled along my ceiling, slower and still slower until it paused just over my bed. It seemed to me at that moment that the lath and plaster were no tighter or stronger than a spider-web, and that the entity was incalculably more awful than the prince and father of all spiders. It crouched there, almost within reach of me, gloating and hungering, turning over in its dark mind the problem of when and how to take hold of me.
 
@@ -542,12 +536,11 @@ But in one scrambling moment I had fled downstairs and to the front door.
 
 It was no swelling of courage that made me pause before rushing out — only a sensible, if hopeless, consideration of what must follow. I could leave the house and mope in the rainy street until someone came back. Then I would have to
 
-UP UNDER THE ROOF
 
 
 come back, too, and in time I would have to go to bed. Then the creature that made the noise would come down; it would wait no longer, for it had seen me and my tortured terror. It would flow to the floor, through my door and creep into bed with me. I would know how it looked, what color it was, and what it wanted with me.
 
-A cold determination came, I know not whence, stiffening .my limbs and neck like new sawdust poured into an empty doll. I walked slowly back through the house to the foot of the stairs. There I paused, trying to lift myself to the bottom step. I could not, and turned and walked to the back porch. There, upon the wood-box, lay a hand-ax. It was dull and rusty, and wobbled upon its helve, but I took it and this time I mounted the steps — slowly — one after another, with long, tight breaths between. The old boards creaked under my feet, as if aghast at my foolish daring. I reached the upper hall, and went back into the lumber-room.
+A cold determination came, I know not whence, stiffening.my limbs and neck like new sawdust poured into an empty doll. I walked slowly back through the house to the foot of the stairs. There I paused, trying to lift myself to the bottom step. I could not, and turned and walked to the back porch. There, upon the wood-box, lay a hand-ax. It was dull and rusty, and wobbled upon its helve, but I took it and this time I mounted the steps — slowly — one after another, with long, tight breaths between. The old boards creaked under my feet, as if aghast at my foolish daring. I reached the upper hall, and went back into the lumber-room.
 
 It had turned darker than when I had first come to find the magazines. I made myself look up at the triangular opening, and that took a mustering of all my willpower, but there was nothing to see. I stuck the handle of the ax into the waistband of my knickerbockers, and dragged a heavy, dust-laden old bureau over against the w 7 all by the door. On that I placed a broken chair; then a candle-box, precariously on end. At last I climbed up on the bureau, up on the chair, up on the box. My chin came level with the threshold of the black cavern. It was like gazing into a pool of ink. I got hold of a cross-timber and drew myself slowly up. The candle-box tipped over and fell from beneath my feet, striking the floor of the
 
@@ -573,7 +566,7 @@ WeiRD JTl
 
 ft RtPRINT
 
-T HE man who told me this story said that it was the oldest story in the world, and that it happened a hundred thousand years ago. But somehow, I disbelieve him. He was very drunk and his eyes were a trifle too bright and his hair was quite remarkably disheveled, so it is possible that he was somewhat mixed in his statistics.
+THE man who told me this story said that it was the oldest story in the world, and that it happened a hundred thousand years ago. But somehow, I disbelieve him. He was very drunk and his eyes were a trifle too bright and his hair was quite remarkably disheveled, so it is possible that he was somewhat mixed in his statistics.
 
 He came over to my table in the jar din de Paris, which is a place in the city of Rangoon some thousands of miles frqm the real Paris, and as many leagues removed from anything Parisian. For one thing, the stench of the Guleh-Wat is all too near, and it is a mingled odor of incense and stale lotus and nipa blossoms and very, very unwashed huqaan. beings who come there to worship. And then, too, one may look out over the river and see the sandbars, wdth an occasional vulture perched there, critically inspecting some especially unattractive thing that floated down with the current. And of course there are snub-nosed British
 
@@ -586,7 +579,6 @@ He came over to my table and begged me not to finish the drink I had before me, 
 
 W. T.— 7
 
-THE OLDEST STORY IN THE WORLD
 
 
 white or purple drinks, and he would sit down beside me and tell me the oldest story in the world.
@@ -615,7 +607,7 @@ The white man reached Kosar on a day when the raja showed himself to his people,
 
 They glittered like blood, they sparkled like flames, they were a blaze of sheer magnificence upon a small, weary, dark-.' skinned man who extracted some weak, vain satisfaction from the looks his people cast upon those rubies. There were no guards near the raja, because it was death to come within ten paces when he wore the jewels of state. And it was possibly due to the lack of guards that a child, barely toddling, escaped from its mother and advanced with curious steps toward the ponderous bulk of the slow-moving elephant. The raja saw it coming near. It was ten paces, seven, five, from his sacred personage.
 
-He nodded negligently, and a spearman darted into the circle that was about the jewels. The scream of the mother was very terrible. . . ,
+He nodded negligently, and a spearman darted into the circle that was about the jewels. The scream of the mother was very terrible...,
 
 T he man with the disheveled hair, who was telling me this story in the Jardin de Paris, in Rangoon, stopped suddenly. He looked across to another table where a man I knew was taking a seat. A waiter was coming with a glass in which was the counterpart of the drink I had discarded. It is one part limes and one part gin and one part grenadine, with ice and carbonated water, and it is very satisfying.
 
@@ -631,7 +623,6 @@ Gresham slipped into a seat and nodded brightly.
 
 He was talking to the man with the disheveled hair, but that person was looking fearfully at the waiter who had followed Gresham with his drink. I explained gently to Gresham, and he sent
 
-THE OLDEST STORY IN THE WORLD
 
 
 the drink away. He began to' look very thoughtful, suddenly.
@@ -700,9 +691,8 @@ Certainly there was no other reason why one dressed so carefully and so well sho
 
 once, put in china jars ”
 
-He laughed. The stranger shivered again. "It was a hundred thousand years ago. ...”
+He laughed. The stranger shivered again. "It was a hundred thousand years ago....”
 
-THE OLDEST STORY IN THE WORLD
 
 
 The scents from the Guleh-Wat came over the wall as he went on, mingled odors of incense and stale flowers and cooked food and particularly unwashed humanity. A colossal temple bell clanged slowly, far over the city. Sunset was upon us, and the big moths that flutter in the tropics began to fly about, clumsily, because it was still light. The man with the disheveled hair clutched firmly at his glass. It was full of a green liquid.
@@ -719,7 +709,7 @@ He was a great man, and a wise man, so he felt, and it was already time for him 
 
 Surely it was not the thought of a white man that made him throw back his head and laugh aloud in the bazar at Barowak. He had heard that the ranee of Barowak was most beautiful of all women. And it was no more than fitting that he who had taken the jewels of Kosar should likewise take for himself the pearl of Barowak. His garb had been perfect for the first of his purposes, and was no less adapted to the second.
 
-He went and held a secret consultation with an old female slave of the palace. . , .
+He went and held a secret consultation with an old female slave of the palace..,.
 
 
 
@@ -729,7 +719,7 @@ She gave him cooling drinks with her own hands, and watched him anxiously as he 
 
 “Why have you fear?’’ he asked, as she listened apprehensively to some retreating footsteps.
 
-“My lord knows not the worship of Khayandra,” she told him. “But if I may please the god in any way. . .
+“My lord knows not the worship of Khayandra,” she told him. “But if I may please the god in any way...
 
 The white man was drunk with his power, which lay hidden in the ground among the hills that looked down on the city. His power was in small red stones, the largest of which was the size of a man’s fist, but they glittered very wonderfully, and most men would have sold their souls for one of the smallest of them. The white man, disguised as a priest of Khayandra, thought of those stones glittering in the dark damp earth, waiting for his coming, and the thought intoxicated him. He looked upon the woman before him and found her pleasing. She was proud of carriage, and small of foot, and graceful. A.nd her dips were very, very red, almost as red as the rubies the white man had stolen, and her eyes were like other jewels he did not possess.
 
@@ -745,7 +735,6 @@ T he white man had forgotten that though he might be very powerful, because of c
 
 One of the eunuchs vanished, bearing a message, and presently returned. He made signs to the others, and the white man was lifted up and carried for a long distance through gloomy corridors of stone, while those who carried him giggled to themselves at what was to befall him. He could only writhe. But the ranee Sahnya made no struggle.
 
-THE OLDEST STORY IN THE WORLD
 
 50J
 
@@ -783,7 +772,7 @@ The raja said nothing whatever, but he looked very carefully at the mark on the 
 
 The white man would have groveled in the earth, then, but that he was tied.; The raja laughed, rocking his body back and forth.
 
-"The raja Arthur, with his tuans , had many strange customs. There was that notion of the ordeal. I shall put you two to the ordeal. One of you shall live. And the other ...”
+"The raja Arthur, with his tuans, had many strange customs. There was that notion of the ordeal. I shall put you two to the ordeal. One of you shall live. And the other...”
 
 The ranee spoke very softly, and very quietly. She was pleading for her life, but she spoke very softly. The raja waved her aside.
 
@@ -819,7 +808,7 @@ But the raja merely drowzed, until presently he said suddenly:
 
 "Let them name the prices they will pay for mercy.”
 
-And then there was silence for a long time, while the white man’s soul writhed. On the one hand, the prospect of staring with lidless scorched eyes up at a pitiless tropic sun for days or weeks or months, with other tortures yet to follow, the rack, and the boot, and flame, and water dripping until death came. And on the other hand, the giving up of his rubies, his priceless, .precious rubies that glittered with a red fire that was neither of land nor sea.
+And then there was silence for a long time, while the white man’s soul writhed. On the one hand, the prospect of staring with lidless scorched eyes up at a pitiless tropic sun for days or weeks or months, with other tortures yet to follow, the rack, and the boot, and flame, and water dripping until death came. And on the other hand, the giving up of his rubies, his priceless,.precious rubies that glittered with a red fire that was neither of land nor sea.
 
 He gave an agonized cry at the thought, but terror drove him, and he offered rubies for his life. The largest was the size of a man’s fist and those next in size as large as a man’s thumb, and so on down to tiny glittering stones no bigger than a grain of sand. He offered them all, despairingly, for his life.
 
@@ -833,7 +822,6 @@ Then the raja smiled very curiously, and bade his servants go and dig up the rub
 
 And he lay bound in the sunlight, full of an unspeakable anguish at the loss of his rubies, until the men came back with his treasure.
 
-THE OLDEST STORY IN THE WORLD
 
 
 The raja looked at them sleepily, and allowed the babu to touch and finger them. He made no move to examine them himself. But the white man, seeing all his wealth passing forever from his hands, cried out horribly.
@@ -844,7 +832,7 @@ The white man sank back upon the stone flooring and moaned with anguish at the r
 
 And then the babu looked up and smiled very placidly and said, "These are the rubies of the raja of Kosar, sar. I took them to him from Bombay, sar, when I was jeweler’s clerk. He was very poor an’ could make no display, so he had these jewels made for state occasions, sar, an’ they are made out of glass.”
 
-Through the stunned horror of the white man there came a curious sound. It was the raja, laughing. He was laughing at the jest of a man trying to buy his own life and the death of a woman with bits of colored glass which were paste and not precious stones at all. He was particularly amused at the white man’s trying to buy the death of a woman who had offered a very great price for her life. She had offered him a son, concerning whom she had wished to make prayers to the god Khayandra. It diverted the raja of Barowak to think of a man trying to exchange trumpery bits of trash for so priceless a gift, and he was minded to carry out the jest to its only fitting conclusion, with the aid of the Arthurian Legends and the History of the Spanish Inquisition. He gave orders, laughing uncontrollably. . . .
+Through the stunned horror of the white man there came a curious sound. It was the raja, laughing. He was laughing at the jest of a man trying to buy his own life and the death of a woman with bits of colored glass which were paste and not precious stones at all. He was particularly amused at the white man’s trying to buy the death of a woman who had offered a very great price for her life. She had offered him a son, concerning whom she had wished to make prayers to the god Khayandra. It diverted the raja of Barowak to think of a man trying to exchange trumpery bits of trash for so priceless a gift, and he was minded to carry out the jest to its only fitting conclusion, with the aid of the Arthurian Legends and the History of the Spanish Inquisition. He gave orders, laughing uncontrollably....
 
 T he man with the disheveled hair was staring, now, as if he saw terrifying things. He drank of his green drink and shuddered. Gresham was listening very
 
@@ -862,7 +850,7 @@ And then he was released for a single
 
 
 
-day, while he knew that the raja and all his descendants must have died and been forgotten, and hoped that they had forgotten the cause of his doom, or the length of it. But they put him back again and again, and yet again, until he knew that he must wait patiently, until all the armies of the world could find no more red dye with which to tint the rivers, and the rivers had run dry, and there was no .more water in the earth. He sat on his reddened throne and screamed endlessly because a tiny drop of water fell drip . . . drip . . . drip . , B upon a single tiny spot upon his skull.
+day, while he knew that the raja and all his descendants must have died and been forgotten, and hoped that they had forgotten the cause of his doom, or the length of it. But they put him back again and again, and yet again, until he knew that he must wait patiently, until all the armies of the world could find no more red dye with which to tint the rivers, and the rivers had run dry, and there was no.more water in the earth. He sat on his reddened throne and screamed endlessly because a tiny drop of water fell drip... drip... drip., B upon a single tiny spot upon his skull.
 
 And he stayed there a hundred thousand years.
 
@@ -874,7 +862,7 @@ Gresham coughed suddenly.
 
 The man with the disheveled hair turned too-bright eyes upon us.
 
-"It lasted for a hundred thousand years,” he said lucidly, "so, naturally, he cursed rubies, because everything about him all that time was the color of rubies and the water that fell was always tinted like rubies. It looked like them as it fell, glittering. ...”
+"It lasted for a hundred thousand years,” he said lucidly, "so, naturally, he cursed rubies, because everything about him all that time was the color of rubies and the water that fell was always tinted like rubies. It looked like them as it fell, glittering....”
 
 "I wonder,” I said, ruminating, "if it
 
@@ -890,7 +878,7 @@ He made a sudden impatient gesture.
 
 The man with the disheveled hair was lying slumped back in his seat, and he was staring with an infinite pleasure at the greenness of his drink as it showed in the dim lights the Jardin de Paris provides.
 
-"A hundred thousand years,” he murmured, and shuddered. "Drip , . . drip * . . drip . .
+"A hundred thousand years,” he murmured, and shuddered. "Drip,.. drip *.. drip..
 
 A waiter passed behind him and stumbled just a little. In stumbling, he raised his arm to catch himself and a single drop of red liquid slopped over the edge of the glass. It fell on the head of the man with the disheveled hair.
 
@@ -902,13 +890,13 @@ much was said, yet so much left untold. It is readings like these that make one 
 
 Trudy’s Spellings
 
-Kenneth Moor writes from Lancashire, England: "I was very much amused to receive a pictureless copy of WT in yesterday’s mail, but I hope there are no more, because Finlay’s illustrations are, to me, 50 per cent of the magazine. I must say, however, that I don’t think his new type of drawings are anything like as good as his former ones. (If you would like to print this I w-ould be very interested to see the storm of abuse the last statement will bring down on my defenseless head from other Finlay fans ! ) And talking of printing letters: thanks for putting in my last one — I was never so surprized in my life! Congratulations on Pigeons from Hell, the weirdest tale you’ve ever produced to my knowledge. But then I’m bloodthirsty! . . . Now a few pats on the back. I read the August issue and enjoyed ic except for — but we’ve had enough brickbats. I think The Fire Princess is a winner even if there w r as nothing to show it was a serial until the very last page. Hamilton’s descriptions are marvelous and one can really visualize the set507
+Kenneth Moor writes from Lancashire, England: "I was very much amused to receive a pictureless copy of WT in yesterday’s mail, but I hope there are no more, because Finlay’s illustrations are, to me, 50 per cent of the magazine. I must say, however, that I don’t think his new type of drawings are anything like as good as his former ones. (If you would like to print this I w-ould be very interested to see the storm of abuse the last statement will bring down on my defenseless head from other Finlay fans! ) And talking of printing letters: thanks for putting in my last one — I was never so surprized in my life! Congratulations on Pigeons from Hell, the weirdest tale you’ve ever produced to my knowledge. But then I’m bloodthirsty!... Now a few pats on the back. I read the August issue and enjoyed ic except for — but we’ve had enough brickbats. I think The Fire Princess is a winner even if there w r as nothing to show it was a serial until the very last page. Hamilton’s descriptions are marvelous and one can really visualize the set507
 
 
 
 tings. That is the highest tribute that can be paid to any writer. (I notice that the British agent seems to be a rather incompetent young lady! No offense, Mr. Hamilton.)
 
-. . . Yours till Trudy takes her spellings from the Oxford Dictionary!”
+... Yours till Trudy takes her spellings from the Oxford Dictionary!”
 
 Armful of Orchids
 
@@ -920,7 +908,6 @@ Misti Selkirk writes from Lima, Peru: "After these many years of devotion to Wei
 
 that he need not depend upon imitation to be effective, that tales purely his own should be excellent. I solemnly warn him that I have spent the past week in sifting over the most horrid necromancies of the pre-Inca mythologies searching for a curse of sufficient virulence to suit his crime. I have at last extracted one from the cobwebbed corridors of the nighted necropoli of Nazca which I am sure will be satisfactory. After dusting it off and adjusting its delicate mechanism, I have made a trial of its potency, which trial resulted in a blister on my tongue, an extensive charring of the grass roundabout, and a large crack in the granite boulder on which I was sitting when I repeated the incantation. So I wrapped the curse in paper of purest asbestos ready to mail upon a moment’s notice to anyone who again so dares to stir the bones of the illustrious dead and to trouble once more the mighty shade of great Conan, to drag back a feeble shadow of his greatness from the Valhalla he so nobly earned. Since, without the sugar coating, there is bitterness and resentment in the best-intentioned quinine, let me continue with a few words of appreciation for the many stories in recent numbers that I did like. Your reprint of Saladin’s Throne-Rug was a superb choice and recalls to my mind the wealth of wonderful tales printed in your pages in years gone by. Let us have more of these old masterpieces. Please allow me to congratulate Mr. Bloch on his streamlined re-creation of the horror tales of Poe. Let no one think that I intend thereby disrespect or disparagement of either Mr. Bloch or Mr. Poe. Escape, by Ernst, is a well-tailored little tale, almost inducing belief. Mother of Toads fully meets the standard of excellence which we have come to expect from Mr. Smith. The Black Drama promises to be the best serial in many a moss-draped moon. Let us hope that it continues in the same high plane. The Defense Rests is a very novel and welcome treatment of a theme not new, but always of absorbing interest to those of us who have not yet gone 'over there.’ Just one little corner of a brickbat to David Keller for his entirely unconvincing Dust in the House. Mr. Keller has often shown us in times past that he can do much better. Also, may I ask why Edmond Hamilton has so long hidden his light under the bushel of so many carbon-copy tales when he had the
 
-THE EYRIE
 
 
 talent for ones like The Isle of the Sleeper and He that Hath Wings? These last two are probably the best that we have ever had from his pen. Give us more like these, Mr. Hamilton. No appreciation of the tales in the July issue would be complete without a word for Fortune’s Fools, another of those word-faceted jewel carvings of phrases which we owe to the genius of Seabury Quinn, whose Globe of Memories and Roads have shov/n us so clearly that beauty and tenderness also have their place in the. weird tale.”
@@ -937,7 +924,7 @@ Two Super-Stories
 
 Donald Y. Allgeier writes from Springfield, Missouri: "In the July issue it seemed to me that there were two 'super-stories’ — Fortune’s Fools and He that Hath Wings. Quinn’s story is just about his best to date. It is far superior to the puerile Roads (do I
 
-hear boos?). It has everything a good weird tale should have — plus that extra, indefinable something. Hamilton’s story recaptures the atmosphere of his Child of the Winds. His latest is a charming story. S aladin’s Throne-Rug would seem better to me if I had not read The Girl from Samarcand. I’m saving both of them, however. Other good stories in July were Return to the Sabbath, The Defense Rests and Spaivn of Dagon — the latter inferior to the first Elak yarn. ... I still maintain that you should have a line blank for story preferences, about reprints. Let the readers vote on the stories they want reprinted. Tabulate the votes and reprint the most popular one first, then several of the others in order. The best story in the August number is The Black Drama. Field is. one of your best authors. The W olf - Girl of Josselin is fine, though only original in a few touches. I liked the denouement very much. The Fire Princess is an excellent example of the weird action story. It should grow more entertaining as the yarn unfolds.”'
+hear boos?). It has everything a good weird tale should have — plus that extra, indefinable something. Hamilton’s story recaptures the atmosphere of his Child of the Winds. His latest is a charming story. S aladin’s Throne-Rug would seem better to me if I had not read The Girl from Samarcand. I’m saving both of them, however. Other good stories in July were Return to the Sabbath, The Defense Rests and Spaivn of Dagon — the latter inferior to the first Elak yarn.... I still maintain that you should have a line blank for story preferences, about reprints. Let the readers vote on the stories they want reprinted. Tabulate the votes and reprint the most popular one first, then several of the others in order. The best story in the August number is The Black Drama. Field is. one of your best authors. The W olf - Girl of Josselin is fine, though only original in a few touches. I liked the denouement very much. The Fire Princess is an excellent example of the weird action story. It should grow more entertaining as the yarn unfolds.”'
 
 Lack of Illustrations
 
@@ -945,14 +932,14 @@ T. O. Hoffmaister writes from Saint Louis, Missouri: "I was very much disappoint
 
 The Perfect Pearls
 
-Robert Black writes from San Antonio,, Texas: "I have been reading your magazine for years — always in deepest appreciation. But this is my first letter. First, let me draw a great tide of maledictions onto my head by criticizing the dead master, Lovecraft, and his story, The Doom that Came to Sarnath. All I can say is he must have been reading some of Lord Dunsany’s books before writing that — it has all the Dunsany touches and quirks — not like Lovecraft, at all. Judge Pursuivant gets better in each story. He’s great in The Black Drama. Elak is one of my favorites- — he and the good Doctor Jules de Grandin. Elak may even approach the level of that king of buccaneers — Conan the Barbarian. ... A word of commenda510
+Robert Black writes from San Antonio,, Texas: "I have been reading your magazine for years — always in deepest appreciation. But this is my first letter. First, let me draw a great tide of maledictions onto my head by criticizing the dead master, Lovecraft, and his story, The Doom that Came to Sarnath. All I can say is he must have been reading some of Lord Dunsany’s books before writing that — it has all the Dunsany touches and quirks — not like Lovecraft, at all. Judge Pursuivant gets better in each story. He’s great in The Black Drama. Elak is one of my favorites- — he and the good Doctor Jules de Grandin. Elak may even approach the level of that king of buccaneers — Conan the Barbarian.... A word of commenda510
 
 
 tion. For his two perfect pearls, Roads and Goetterdaemmerung, I could forgive Quinn anything. If he can do it some more, here is the man to take the cloak of Howard or Lovecraft. More power to him!”
 
 A Mournful Dirge
 
-Ralph Clarry writes from Toronto, Ontario, Canada: "This is indeed a mournful dirge I write; for Weird Tales has been banned from Canada, is now no more as far as we are concerned. Possibly due a great deal to its striking covers more than anything else, this great and unique magazine has succumbed to the ax of indiscriminate chopping. I would w r rite at great length on this subject, but I feel that it would be of no use to point out various facts to those responsible. The truly imposing array of authors that have graced the pages of Weird Tales since its inception, contemporary and deceased, has been ignored. Names like Sir Arthur Conan Doyle, Edgar Allan Poe, Jules Verne, Algernon Blackwood, Nathaniel Hawthorne, A. Merritt and H. P. Lovecraft, to mention only a few who have had some of their best v/orks printed in WT, have not been considered, and represent, I think, just how far into the magazine’s contents the banners went. No, I think w'e can safely assume that a few kicks probably from some rheumy old chronics have been the main element in the dictum. I was told by a news-dealer here that if just three complaints are registered against a particular periodical throughout the whole of Ontario, then that magazine is banned. Six, no less, have been thus eliminated in the last month. Upon my vcord, it seems not impossible thpat in short order we shall have nothing but the funny papers to read here in Canada — if what constitutes good reading and what doesn’t is left to the judgment of a few persons, that is. . . . There isn’t very much I can add to this letter. If you print it in tire Eyrie, I will never get to see it, but mayhap someone might who could do something about the deplorable high-handed action that has deprived the many Canadian readers of their irreplaceable weird monthly. I am treating this in a very sober light, admittedly, but it is more than annojdng to have something taken away that you have enjoyed for years. Suffice to say I know now •what a baby feels like when you take candy from it ! I have never had any kick to make
+Ralph Clarry writes from Toronto, Ontario, Canada: "This is indeed a mournful dirge I write; for Weird Tales has been banned from Canada, is now no more as far as we are concerned. Possibly due a great deal to its striking covers more than anything else, this great and unique magazine has succumbed to the ax of indiscriminate chopping. I would w r rite at great length on this subject, but I feel that it would be of no use to point out various facts to those responsible. The truly imposing array of authors that have graced the pages of Weird Tales since its inception, contemporary and deceased, has been ignored. Names like Sir Arthur Conan Doyle, Edgar Allan Poe, Jules Verne, Algernon Blackwood, Nathaniel Hawthorne, A. Merritt and H. P. Lovecraft, to mention only a few who have had some of their best v/orks printed in WT, have not been considered, and represent, I think, just how far into the magazine’s contents the banners went. No, I think w'e can safely assume that a few kicks probably from some rheumy old chronics have been the main element in the dictum. I was told by a news-dealer here that if just three complaints are registered against a particular periodical throughout the whole of Ontario, then that magazine is banned. Six, no less, have been thus eliminated in the last month. Upon my vcord, it seems not impossible thpat in short order we shall have nothing but the funny papers to read here in Canada — if what constitutes good reading and what doesn’t is left to the judgment of a few persons, that is.... There isn’t very much I can add to this letter. If you print it in tire Eyrie, I will never get to see it, but mayhap someone might who could do something about the deplorable high-handed action that has deprived the many Canadian readers of their irreplaceable weird monthly. I am treating this in a very sober light, admittedly, but it is more than annojdng to have something taken away that you have enjoyed for years. Suffice to say I know now •what a baby feels like when you take candy from it! I have never had any kick to make
 
 about the magazine as it was, probably never would have, but I find it impossible to withhold a kick for the magazine’s being banned. It is rank injustice.”
 
@@ -960,19 +947,19 @@ The Book of Thel
 
 Earl E. Le Clair writes from Buffalo, New York: "I consider Weird Tales the most literary of all the pulp magazines. This statement is well backed by a number of your contributors and the type of work they do. Another good point in the magazine is the frontispiece in which some artist illustrates an excerpt from some classical work. Might I suggest illustrations of perhaps William Collins’ The Passions or some of William Blake’s Prophetic Books, as for instance The Marriage of Heave>j and Hell, or The Book of Thel, from which I quote Thel’s Motto:
 
-’Does the eagle know what is in the Pot, Or wilt thou go ask the mole ?
+’Does the eagle know what is in the Pot, Or wilt thou go ask the mole?
 
 Can wisdom be put in a silver rod,
 
 Or love in a golden bowl?’
 
-Might I also mention the works of Lord Byron, Robert Browning and James Thomson’s City of Dreadful Night, and endless others that, I think, could supply inspiration to this artist. ... I like those stories that deal with pure mystics or with metaphysics, or with the strange and forgotten of some land, time, or peoples; although I do not care for that type of story that has to do with mechanical or scientific wonder-stories of the future.”
+Might I also mention the works of Lord Byron, Robert Browning and James Thomson’s City of Dreadful Night, and endless others that, I think, could supply inspiration to this artist.... I like those stories that deal with pure mystics or with metaphysics, or with the strange and forgotten of some land, time, or peoples; although I do not care for that type of story that has to do with mechanical or scientific wonder-stories of the future.”
 
 What! No Pictures?
 
 Francis Hacker writes from Hollywood, California: “I enjoyed the August issue
 
-more than any other one for years back, and I was amused to find the reason made plain to me by your note at the end — apologizing for the lack of pictures. If only the accident which prevented pictures which attempt to depict the undepictable could become a permanent part of your schedule of publication ! You will always find voluble readers to praise anything at all — while a much bigger block of potential buyers are put off by these puerile attempts at illustrations which to a devastating degree offset the terrific stimuli to the imagination that I am sure you intend the stories to be. Words, skilfully handled, may suggest a picture as inherently a portrayal, and who may portray a nightmare? It is a negation of terms. Since I am an old,
+more than any other one for years back, and I was amused to find the reason made plain to me by your note at the end — apologizing for the lack of pictures. If only the accident which prevented pictures which attempt to depict the undepictable could become a permanent part of your schedule of publication! You will always find voluble readers to praise anything at all — while a much bigger block of potential buyers are put off by these puerile attempts at illustrations which to a devastating degree offset the terrific stimuli to the imagination that I am sure you intend the stories to be. Words, skilfully handled, may suggest a picture as inherently a portrayal, and who may portray a nightmare? It is a negation of terms. Since I am an old,
 
 
 
@@ -980,11 +967,11 @@ old reader I have allowed myself the privilege of friendly criticism — but I c
 
 No Sequel
 
-Allan Scott writes from New York City: "In the December, 1937, issue of Weird Tales you had an exceptionally interesting story by the name of The Sea-Witch by some author with an unpronounceable name (Nictzin Dyalhis). The story ended: *1 wonder if . . Will you inform me at your earliest possible convenience whether there is to be a sequel?”
+Allan Scott writes from New York City: "In the December, 1937, issue of Weird Tales you had an exceptionally interesting story by the name of The Sea-Witch by some author with an unpronounceable name (Nictzin Dyalhis). The story ended: *1 wonder if.. Will you inform me at your earliest possible convenience whether there is to be a sequel?”
 
-What Is So Rare ?
+What Is So Rare?
 
-Robert Burrell writes from Corona, California: "What’s so rare as a day in June, and along with it a copy of WT as good as the current issue (July) , and a cracking good story like Henry Kuttner’s Spawn of Dagon? Others, mayhap, may sigh for the conventional accouterments of a hurricane-like wind blowing with a ferocity sufficient to lift a dog house from its measly foundations, raindrops the size of Homburg grapes, and chain lightning without; a big silent house, a cold, playful draft, and a brace of guttering candles within, to fully enjoy the 'unique magazine’. But give me Weird Tales any time and in any place and I’m gone with the gale until I’ve read it from cover to cover. The Imperial Valley, with the mercury playfully hovering around the 122° mark; a snowbound lookout tower in the Santa Anna Mountains ; or my station before the console of the organ in the church in which I serve in the capacity of organist (with WT safely hidden from view in the depths of a ponderous volume of Bach toccatas and fugues and Cesar Franck voluntaries), none of these locales serve to dampen my ardor when a new copy of WT comes into my hands. Might I toss a large, luscious orchid in Seabury Quinn’s direction for his Tortime’s Tools? This sprightly tale, dealing as it did with the adventures of the illustrious great-grandsire of the present-day ubiquitous Jules de Grandin, proved a welcome change over the usually-chronicled doings of the latter intrepid gentleman and his moronic pal, Doctor Trowbridge. Quinn also receives my vote of gratitude for his Roads
+Robert Burrell writes from Corona, California: "What’s so rare as a day in June, and along with it a copy of WT as good as the current issue (July), and a cracking good story like Henry Kuttner’s Spawn of Dagon? Others, mayhap, may sigh for the conventional accouterments of a hurricane-like wind blowing with a ferocity sufficient to lift a dog house from its measly foundations, raindrops the size of Homburg grapes, and chain lightning without; a big silent house, a cold, playful draft, and a brace of guttering candles within, to fully enjoy the 'unique magazine’. But give me Weird Tales any time and in any place and I’m gone with the gale until I’ve read it from cover to cover. The Imperial Valley, with the mercury playfully hovering around the 122° mark; a snowbound lookout tower in the Santa Anna Mountains; or my station before the console of the organ in the church in which I serve in the capacity of organist (with WT safely hidden from view in the depths of a ponderous volume of Bach toccatas and fugues and Cesar Franck voluntaries), none of these locales serve to dampen my ardor when a new copy of WT comes into my hands. Might I toss a large, luscious orchid in Seabury Quinn’s direction for his Tortime’s Tools? This sprightly tale, dealing as it did with the adventures of the illustrious great-grandsire of the present-day ubiquitous Jules de Grandin, proved a welcome change over the usually-chronicled doings of the latter intrepid gentleman and his moronic pal, Doctor Trowbridge. Quinn also receives my vote of gratitude for his Roads
 
 mxr ISSUE
 
@@ -1047,17 +1034,15 @@ Address coupon to the Eyrie, WEIRD | TALES, 840 N. Michigan Ave., Chicago, |
 
 W. T.— 8
 
-COMING NEXT ISSUE
 
-T HE great chapel, circular in shape, had walls that rose curving, darkly luminous, satin-smooth as the petals of a vast black tulip, to meet a vaulted roof— their polished surface broken by squat archways behind which darkness lay like a crouching beast of prey.
+THE great chapel, circular in shape, had walls that rose curving, darkly luminous, satin-smooth as the petals of a vast black tulip, to meet a vaulted roof— their polished surface broken by squat archways behind which darkness lay like a crouching beast of prey.
 
-Above the huge slab of the altar-stone was a reredos of red alabaster, a screen some thirty feet by ten. It was powerfully illumined from behind, so that its carving .stood out in bold relief and a trick in the lighting gave a sinister effect of constant .movement.
+Above the huge slab of the altar-stone was a reredos of red alabaster, a screen some thirty feet by ten. It was powerfully illumined from behind, so that its carving.stood out in bold relief and a trick in the lighting gave a sinister effect of constant.movement.
 
-This screen was a vivid presentment of a human sacrifice. Bound on the . stone altar, a woman appeared to writhe and quiver. Her long bright hair rippled down to a deep trough about the altar-base. About the altar stood tall candles whose flames danced in frenzy. And behind the candles 5 flare and flicker, at each of the four corners of the altar, a veiled figure towered. Menacing, gigantic, these figures were the only immovable objects on the screen, and they achieved by their fateful stillness— in contrast with the surge and movement of all else in the picture— an effect of final inescapable doom. Dark crescent moons poised above each veiled head of these four attendant genii, bearing Hebrew characters which read— EARTH. WINTER. NIGHT. DEATH.
+This screen was a vivid presentment of a human sacrifice. Bound on the. stone altar, a woman appeared to writhe and quiver. Her long bright hair rippled down to a deep trough about the altar-base. About the altar stood tall candles whose flames danced in frenzy. And behind the candles 5 flare and flicker, at each of the four corners of the altar, a veiled figure towered. Menacing, gigantic, these figures were the only immovable objects on the screen, and they achieved by their fateful stillness— in contrast with the surge and movement of all else in the picture— an effect of final inescapable doom. Dark crescent moons poised above each veiled head of these four attendant genii, bearing Hebrew characters which read— EARTH. WINTER. NIGHT. DEATH.
 
-And now Sant saw the black-clad figure— the body of Stephen Lynn, torn and wrenched, trembling from head to foot in diabolic ecstasy, arms flung wide, head bent backward so that light from the suspended globe beat full and fiercely down upon the upturned face. Louder— louder rang the great triumphant organ voice, pealing out into the unclean silence of the chapel s gloom, beating against the curved and shining walls which sent back clashing pasans of tremendous harmony* * * * You cannot afford to miss this strange and powerful tale of possession and dual personality, by the author of Thing of Darkness . This fascinating novelette will be published complete in the next issue of Weird Tales:
+And now Sant saw the black-clad figure— the body of Stephen Lynn, torn and wrenched, trembling from head to foot in diabolic ecstasy, arms flung wide, head bent backward so that light from the suspended globe beat full and fiercely down upon the upturned face. Louder— louder rang the great triumphant organ voice, pealing out into the unclean silence of the chapel s gloom, beating against the curved and shining walls which sent back clashing pasans of tremendous harmony* * * * You cannot afford to miss this strange and powerful tale of possession and dual personality, by the author of Thing of Darkness. This fascinating novelette will be published complete in the next issue of Weird Tales:
 
-THE SIN-EATER
 
 By G. G. Pendarves
 
@@ -1067,7 +1052,6 @@ By Paul Ernst
 
 A fascinating story about a heinous crime and its strange aftermath— by the author of "The Witch’s Curse” and other weird thrill-tales.
 
-THE NAMELESS CITY
 
 By H. P. Lovecraft
 
@@ -1079,7 +1063,6 @@ By Robert Bloch
 
 A tale of old Mexico under the Spaniards, of an evil black Moor from Granada, of a dire oppression of the Indians, and a ghastly game of ten-pins played on the desert sands.
 
-LYNNE FOSTER IS DEAD
 
 By Seabury Quinn
 
@@ -1103,13 +1086,13 @@ Ttathi 'That fjave Seen
 
 tPenied JTttu^^lina 4juL/nanittj
 
-F OR every word that has left the lips of bishops or statesmen to enlighten man, a thousand have been withheld. For every book publicly exposed to the inquiring mind, one hundred more have been suppressed — to oblivion . Each year of progress has been wilfully delayed centuries. Wisdom has had to filter through biased, secret sessions or ecclesiastical council meetings, where high dignitaries of state and church alone proclaimed what man should know.
+FOR every word that has left the lips of bishops or statesmen to enlighten man, a thousand have been withheld. For every book publicly exposed to the inquiring mind, one hundred more have been suppressed — to oblivion. Each year of progress has been wilfully delayed centuries. Wisdom has had to filter through biased, secret sessions or ecclesiastical council meetings, where high dignitaries of state and church alone proclaimed what man should know.
 
 Are you prepared to demand the hidden facts of life? Will you continue to believe that you are not capable of weighing the worth of knowledge that concerns your personal freedom and happiness? Realize that much that can make your life more understandable and livable has been left unexplained or intentionally destroyed. At first by word of mouth only, and now by private discourses, are revealed those truths which secret brotherhoods preserved in ancient temples and hidden sanctuaries, from those who sought to selfishly deprive humanity of them.
 
 THIS free BOOK OF EXPLANATION
 
-Let the Rosicrucians, one of these ancient brotherhoods of learning, tell you about these amazing truths, and explain how you, too, like thousands of others, may now use them to enjoy the fullness of life. The Rosicrucians, (not a religious organization) invite you to use the coupon opposite and receive the FREE copy of the fascinating, Sealed Book, with its startling tale of self help .
+Let the Rosicrucians, one of these ancient brotherhoods of learning, tell you about these amazing truths, and explain how you, too, like thousands of others, may now use them to enjoy the fullness of life. The Rosicrucians, (not a religious organization) invite you to use the coupon opposite and receive the FREE copy of the fascinating, Sealed Book, with its startling tale of self help.
 
 I
 

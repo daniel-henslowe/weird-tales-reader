@@ -9,7 +9,6 @@ TABLE OF CONTENTS
   1. "Full Issue Text" by 
 ============================================================
 ============================================================
-FULL ISSUE TEXT
 ============================================================
 ? 90 Drafting C
 
@@ -39,7 +38,6 @@ Tj=“£
 
 M
 
-THE GUILTY MAN
 
 Coils of Darkness
 
@@ -47,9 +45,7 @@ By SYBLA RAMUS
 
 f Hit
 
-CARVED IN THE FLESH
 
-THE DOOR OF DOOM
 
 A Short Story of Tragic Love
 
@@ -75,7 +71,7 @@ igp
 
 No. 4. Swiatek, the Beggar
 
-rfeiHt u ,
+rfeiHt u,
 
 l@lB15i
 
