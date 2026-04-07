@@ -107,6 +107,15 @@
     );
   }
 
+  function getMatchedStories(issue) {
+    if (!searchQuery) return null;
+    const q = searchQuery.toLowerCase();
+    return issue.stories.filter(s =>
+      s.title.toLowerCase().includes(q) ||
+      (s.author && s.author.toLowerCase().includes(q))
+    );
+  }
+
   function getFilteredIssues() {
     return manifest.issues.filter(issue => {
       if (activeYear && issue.year !== activeYear) return false;
@@ -132,13 +141,19 @@
 
   function render() {
     const issues = getFilteredIssues();
-    countEl.textContent = `${issues.length} issue${issues.length !== 1 ? 's' : ''}`;
+    const label = searchQuery
+      ? `${issues.length} result${issues.length !== 1 ? 's' : ''} for &ldquo;${escapeHtml(searchQuery)}&rdquo;`
+      : `${issues.length} issue${issues.length !== 1 ? 's' : ''}`;
+    countEl.innerHTML = label;
 
     grid.innerHTML = issues.map(issue => {
-      const stories = issue.stories.slice(0, 3);
-      const moreCount = issue.stories.length - 3;
       const progress = getReadProgress(issue.slug);
       const inProgress = progress !== null && progress > 0;
+      const matched = getMatchedStories(issue);
+      const storiesToShow = matched && matched.length > 0 ? matched.slice(0, 3) : issue.stories.slice(0, 3);
+      const moreCount = matched && matched.length > 0
+        ? matched.length - 3
+        : issue.stories.length - 3;
 
       return `
         <a href="reader.html?issue=${issue.slug}" class="issue-card${decadeClass(issue.year)}${inProgress ? ' issue-card--in-progress' : ''}">
@@ -150,7 +165,7 @@
           ` : ''}
           <hr class="issue-card__divider">
           <ul class="issue-card__stories">
-            ${stories.map(s => `
+            ${storiesToShow.map(s => `
               <li>&ldquo;${escapeHtml(s.title)}&rdquo;${s.author ? ` <span class="author">&mdash; ${escapeHtml(s.author)}</span>` : ''}</li>
             `).join('')}
             ${moreCount > 0 ? `<li style="color:var(--text-muted); font-style:italic">+ ${moreCount} more</li>` : ''}
