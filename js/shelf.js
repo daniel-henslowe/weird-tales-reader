@@ -5,11 +5,13 @@
   let manifest = null;
   let activeDecade = 'all';
   let activeYear = null;
+  let searchQuery = '';
 
   const grid = document.getElementById('issue-grid');
   const countEl = document.getElementById('issue-count');
   const yearFilters = document.getElementById('year-filters');
   const subtitle = document.getElementById('shelf-subtitle');
+  const searchInput = document.getElementById('search-input');
 
   async function init() {
     const resp = await fetch('data/manifest.json');
@@ -17,6 +19,32 @@
     subtitle.textContent = `The Unique Magazine \u00b7 ${manifest.total_issues} Issues \u00b7 ${manifest.years[0]}\u2013${manifest.years[manifest.years.length - 1]}`;
     buildYearPills();
     render();
+
+    searchInput.addEventListener('input', () => {
+      searchQuery = searchInput.value.trim();
+      // Clear decade/year filters when searching
+      if (searchQuery) {
+        activeDecade = 'all';
+        activeYear = null;
+        updateFilterUI();
+      }
+      render();
+    });
+
+    // Keyboard shortcut: / to focus search
+    document.addEventListener('keydown', (e) => {
+      if (e.key === '/' && !e.target.matches('input, textarea')) {
+        e.preventDefault();
+        searchInput.focus();
+        searchInput.select();
+      }
+      if (e.key === 'Escape' && document.activeElement === searchInput) {
+        searchInput.blur();
+        searchQuery = '';
+        searchInput.value = '';
+        render();
+      }
+    });
   }
 
   function buildYearPills() {
@@ -64,10 +92,26 @@
     });
   }
 
+  function matchesSearch(issue) {
+    if (!searchQuery) return true;
+    const q = searchQuery.toLowerCase();
+    if (issue.date.toLowerCase().includes(q)) return true;
+    if (issue.editor && issue.editor.toLowerCase().includes(q)) return true;
+    if (issue.cover_art) {
+      if (issue.cover_art.title.toLowerCase().includes(q)) return true;
+      if (issue.cover_art.artist.toLowerCase().includes(q)) return true;
+    }
+    return issue.stories.some(s =>
+      s.title.toLowerCase().includes(q) ||
+      (s.author && s.author.toLowerCase().includes(q))
+    );
+  }
+
   function getFilteredIssues() {
     return manifest.issues.filter(issue => {
       if (activeYear && issue.year !== activeYear) return false;
       if (activeDecade !== 'all' && decadeOf(issue.year) !== activeDecade) return false;
+      if (!matchesSearch(issue)) return false;
       return true;
     });
   }

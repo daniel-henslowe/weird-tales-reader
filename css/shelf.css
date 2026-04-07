@@ -22,6 +22,39 @@
   font-style: italic;
 }
 
+/* === Search Bar === */
+.search-bar {
+  display: flex;
+  justify-content: center;
+  padding: 0 var(--space-xl) var(--space-md);
+}
+
+.search-bar__input {
+  width: 100%;
+  max-width: 480px;
+  padding: var(--space-sm) var(--space-md);
+  font-family: var(--font-body);
+  font-size: 0.95rem;
+  color: var(--text-primary);
+  background: var(--bg-secondary);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  outline: none;
+  transition: border-color 0.15s, box-shadow 0.15s;
+}
+
+.search-bar__input::placeholder {
+  color: var(--text-muted);
+}
+
+.search-bar__input:focus {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent) 15%, transparent);
+}
+
+/* Remove native search cancel button (webkit) */
+.search-bar__input::-webkit-search-cancel-button { display: none; }
+
 /* === Filters === */
 .filters {
   display: flex;
