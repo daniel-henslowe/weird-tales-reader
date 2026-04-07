@@ -21,7 +21,7 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 ISSUES_DIR = REPO_ROOT / "issues"
 DIVIDER_RE = re.compile(r"^={10,}\s*$")
 
-MAX_CHUNK_CHARS = 1800  # ~350 words — fast, reliable claude haiku response
+MAX_CHUNK_CHARS = 4000  # ~800 words — fewer round-trips, still reliable
 
 SYSTEM_INSTRUCTION = (
     "Fix ONLY the OCR scan errors in this 1920s-1950s pulp horror magazine text. "
@@ -32,7 +32,6 @@ SYSTEM_INSTRUCTION = (
 
 
 def claude_fix(text: str, retries: int = 2) -> str:
-    # Pipe text via stdin to avoid shell argument length limits
     prompt = SYSTEM_INSTRUCTION + "\n\n" + text
     last_err = None
     for attempt in range(retries + 1):
@@ -42,7 +41,7 @@ def claude_fix(text: str, retries: int = 2) -> str:
                 capture_output=True, text=True, timeout=120
             )
             if result.returncode != 0:
-                raise RuntimeError(result.stderr[:200])
+                raise RuntimeError(result.stderr[:300])
             out = result.stdout.strip()
             if len(out) < len(text) * 0.4:
                 raise RuntimeError(f"Output suspiciously short ({len(out)} vs {len(text)} chars)")
@@ -50,7 +49,7 @@ def claude_fix(text: str, retries: int = 2) -> str:
         except Exception as e:
             last_err = e
             if attempt < retries:
-                time.sleep(2)
+                time.sleep(3)
     raise last_err
 
 
@@ -125,7 +124,7 @@ def process_file(path: Path, dry_run: bool = False) -> bool:
             try:
                 fixed_chunks.append(claude_fix(chunk))
                 if ci < len(chunks) - 1:
-                    time.sleep(0.4)
+                    time.sleep(1)
             except Exception as e:
                 print(f" ERROR: {e}")
                 ok = False
