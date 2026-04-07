@@ -103,6 +103,11 @@ def parse_issue(filepath):
     toc_end = dividers[3] if len(dividers) > 3 else len(lines)
     stories = parse_toc(lines[dividers[2] + 1:toc_end])
 
+    # Word count: everything after the 4th divider (story body content)
+    body_start = (dividers[3] + 1) if len(dividers) > 3 else toc_end
+    body_text = " ".join(lines[body_start:])
+    word_count = len(body_text.split())
+
     date = header.get("date", "")
     year_m = re.search(r"\b(\d{4})\b", date)
     year = int(year_m.group(1)) if year_m else 0
@@ -125,6 +130,7 @@ def parse_issue(filepath):
         "cover_art": cover_art,
         "stories": stories,
         "story_count": len(stories),
+        "word_count": word_count,
     }
     return issue
 
